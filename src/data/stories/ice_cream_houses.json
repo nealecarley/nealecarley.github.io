@@ -1,0 +1,24 @@
+{
+  "week": 11,
+  "artwork": {
+    "filename": "ice_cream_houses.jpg",
+    "title": {
+      "en": "Ice Cream Houses",
+      "zh": "冰淇淋房子"
+    }
+  },
+  "story": {
+    "en": {
+      "title": "Neale's Ice Cream Village",
+      "content": "Neale had the most delicious dream about houses made of ice cream, so he drew this magical ice cream village! In his picture, each house is made from a different flavor - there's a chocolate house with sprinkle windows, a strawberry house with waffle cone doors, and a mint chip house with cookie shutters. The people who live in these houses never have to worry about being hungry because they can just lick the walls for a tasty snack! The only problem is that on hot summer days, everyone has to work together with giant freezers to keep their houses from melting. Neale thinks the best part about living in an ice cream house would be waking up to the smell of waffle cones every morning!"
+    },
+    "zh": {
+      "title": "恩恩的冰淇淋村庄",
+      "content": "恩恩做了一个关于冰淇淋房子的美味梦，所以他画了这个神奇的冰淇淋村庄！在他的画中，每座房子都是由不同口味的冰淇淋制成——有一座巧克力房子，窗户是彩色糖针；有一座草莓房子，门是华夫饼蛋筒；还有一座薄荷巧克力碎房子，百叶窗是饼干做的。住在这些房子里的人永远不用担心饿肚子，因为他们可以舔墙壁来享用美味的点心！唯一的问题是，在炎热的夏日，每个人都必须一起使用巨大的冰箱来防止他们的房子融化。恩恩认为，住在冰淇淋房子里最好的部分是每天早晨醒来都能闻到华夫饼蛋筒的香味！"
+    }
+  },
+  "characters": {
+    "en": ["Neale", "ice cream village people"],
+    "zh": ["恩恩", "冰淇淋村庄的居民"]
+  }
+}

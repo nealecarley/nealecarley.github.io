@@ -1,0 +1,59 @@
+{
+  "name": "weekly-art-showcase",
+  "version": "1.0.0",
+  "description": "A responsive website showcasing artwork on a weekly basis with bilingual stories from a 5-year-old's perspective",
+  "main": "index.html",
+  "scripts": {
+    "dev": "concurrently \"npm run watch-images\" \"npm run watch-stories\" \"npm run serve\"",
+    "build": "npm run generate-thumbnails && npm run build-stories",
+    "build-full": "npm run clean && npm run generate-thumbnails && npm run build-stories && npm run build-assets",
+    "serve": "http-server . -p 3000 -o",
+    "watch-images": "chokidar \"images/**/*.{jpg,jpeg,png,webp}\" -c \"npm run generate-thumbnails\"",
+    "watch-stories": "chokidar \"src/data/**/*.json\" -c \"npm run build-stories\"",
+    "generate-thumbnails": "node scripts/generate-thumbnails.js",
+    "build-stories": "node scripts/build-stories.js",
+    "build-assets": "node scripts/build-assets.js",
+    "scan-images": "node scripts/scan-images.js",
+    "generate-stories": "node scripts/generate-story-templates.js",
+    "clean": "rimraf dist thumbnails",
+    "test": "jest",
+    "lint": "eslint src scripts --ext .js",
+    "format": "prettier --write \"src/**/*.js\" \"scripts/**/*.js\"",
+    "start": "npm run build && npm run serve"
+  },
+  "keywords": [
+    "art",
+    "gallery",
+    "showcase",
+    "bilingual",
+    "responsive",
+    "children"
+  ],
+  "author": "Neale Carley",
+  "license": "MIT",
+  "devDependencies": {
+    "sharp": "^0.33.2",
+    "chokidar": "^3.5.3",
+    "concurrently": "^8.2.2",
+    "http-server": "^14.1.1",
+    "rimraf": "^5.0.5",
+    "jest": "^29.7.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "chalk": "^4.1.2",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^8.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nealecarley/nealecarley.github.io.git"
+  }
+}

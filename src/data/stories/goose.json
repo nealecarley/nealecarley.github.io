@@ -1,0 +1,24 @@
+{
+  "week": 9,
+  "artwork": {
+    "filename": "goose.jpg",
+    "title": {
+      "en": "Flying Goose",
+      "zh": "飞行的鹅"
+    }
+  },
+  "story": {
+    "en": {
+      "title": "Neale's Soaring Goose",
+      "content": "Neale drew this magnificent goose after watching a flock of geese fly over his house in a perfect V-shape! In his picture, this special goose is the leader of the flock, guiding all the other geese on an exciting journey south for the winter. Neale gave the goose extra-strong wings that can fly higher than any other bird, even above the clouds! The goose in Neale's drawing wears a tiny captain's hat and carries a map to make sure none of the other geese get lost. Neale thinks it would be amazing to ride on the back of this giant goose and see the whole world from way up high in the sky!"
+    },
+    "zh": {
+      "title": "恩恩的翱翔的鹅",
+      "content": "恩恩在看到一群鹅以完美的V形飞过他的房子后，画了这只壮丽的鹅！在他的画中，这只特别的鹅是鹅群的领导者，引导所有其他的鹅进行一次令人兴奋的南飞冬季之旅。恩恩给这只鹅画了特别强壮的翅膀，可以飞得比任何其他鸟儿都高，甚至飞到云层之上！恩恩画中的鹅戴着一顶小小的船长帽，并携带着一张地图，确保没有其他鹅迷路。恩恩认为，骑在这只巨大的鹅背上，从高空中看整个世界，一定非常神奇！"
+    }
+  },
+  "characters": {
+    "en": ["Neale", "captain goose", "flock of geese"],
+    "zh": ["恩恩", "船长鹅", "鹅群"]
+  }
+}

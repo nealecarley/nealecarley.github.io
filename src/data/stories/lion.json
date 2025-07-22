@@ -1,0 +1,24 @@
+{
+  "week": 3,
+  "artwork": {
+    "filename": "lion.jpg",
+    "title": {
+      "en": "Lion with Tree",
+      "zh": "树下的狮子"
+    }
+  },
+  "story": {
+    "en": {
+      "title": "Neale's Brave Lion Friend",
+      "content": "Neale drew a picture of a lion who lived under a magical tree. This lion wasn't scary at all - he was the friendliest lion in the whole jungle! The lion's favorite thing to do was to sit under his special tree and tell stories to all the animals who came to visit. Neale gave the lion a big fluffy mane that looked like sunshine, and a smile that could make anyone happy. The magical tree gave the lion special powers to protect the forest and make sure all the animals were safe and happy. Neale wishes he could visit the lion and listen to his amazing stories too!"
+    },
+    "zh": {
+      "title": "恩恩的勇敢狮子朋友",
+      "content": "恩恩画了一幅住在魔法树下的狮子。这只狮子一点也不可怕——他是整个丛林中最友好的狮子！狮子最喜欢做的事情是坐在他特别的树下，给所有来访的动物讲故事。恩恩给狮子画了一个看起来像阳光一样的大蓬松鬃毛，和一个能让任何人开心的笑容。这棵魔法树给了狮子特殊的力量，保护森林并确保所有动物都安全快乐。恩恩希望他也能去拜访狮子，听听他讲的精彩故事！"
+    }
+  },
+  "characters": {
+    "en": ["Neale", "friendly lion", "magical tree"],
+    "zh": ["恩恩", "友好的狮子", "魔法树"]
+  }
+}

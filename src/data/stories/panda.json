@@ -1,0 +1,24 @@
+{
+  "week": 7,
+  "artwork": {
+    "filename": "panda.jpg",
+    "title": {
+      "en": "Panda Eating Bamboo",
+      "zh": "吃竹子的熊猫"
+    }
+  },
+  "story": {
+    "en": {
+      "title": "Neale's Panda Friend",
+      "content": "Neale drew this fluffy panda after learning that pandas eat bamboo all day long! In his picture, the panda is having a super bamboo feast in a magical forest. This special panda can talk, and he told Neale that bamboo tastes like the best ice cream in the world to pandas! The panda in Neale's drawing has extra big eyes to spot the tastiest bamboo shoots from far away. Neale imagines that if he could be a panda for a day, he would build a bamboo house and have bamboo pancakes for breakfast, bamboo sandwiches for lunch, and bamboo pizza for dinner!"
+    },
+    "zh": {
+      "title": "恩恩的熊猫朋友",
+      "content": "恩恩在了解到熊猫整天都在吃竹子后，画了这只毛茸茸的熊猫！在他的画中，熊猫正在魔法森林里享用一顿超级竹子盛宴。这只特别的熊猫会说话，它告诉恩恩，对熊猫来说，竹子尝起来像世界上最好的冰淇淋！恩恩画中的熊猫有特别大的眼睛，可以从远处发现最美味的竹笋。恩恩想象，如果他能当一天熊猫，他会建一座竹子房子，早餐吃竹子煎饼，午餐吃竹子三明治，晚餐吃竹子披萨！"
+    }
+  },
+  "characters": {
+    "en": ["Neale", "talking panda"],
+    "zh": ["恩恩", "会说话的熊猫"]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "week": 10,
+  "artwork": {
+    "filename": "pikachu.jpg",
+    "title": {
+      "en": "Pikachu",
+      "zh": "皮卡丘"
+    }
+  },
+  "story": {
+    "en": {
+      "title": "Neale's Electric Friend Pikachu",
+      "content": "Neale loves Pikachu so much that he drew this special picture of his favorite electric Pokemon! In his drawing, Pikachu is showing off his amazing electric powers, making colorful sparks fly everywhere. Neale imagines that this Pikachu can power up his whole house when the electricity goes out during a storm. The Pikachu in Neale's picture has extra rosy cheeks that glow in the dark and a lightning-bolt tail that can point the way home if you get lost. Neale dreams that one day he'll have a real Pikachu as a friend who can help charge his toys and make toast just by touching the bread with his electric paws!"
+    },
+    "zh": {
+      "title": "恩恩的电力朋友皮卡丘",
+      "content": "恩恩非常喜欢皮卡丘，所以他画了这幅特别的画，描绘他最喜欢的电系宝可梦！在他的画中，皮卡丘正在展示他惊人的电力，让五彩缤纷的火花四处飞舞。恩恩想象，当暴风雨导致停电时，这只皮卡丘可以为他的整个房子供电。恩恩画中的皮卡丘有特别红润的脸颊，在黑暗中会发光，还有一个闪电形状的尾巴，如果你迷路了，它可以指引你回家的路。恩恩梦想有一天他会有一只真正的皮卡丘作为朋友，它可以帮助给他的玩具充电，只需用它的电力爪子触碰面包就能做出烤面包！"
+    }
+  },
+  "characters": {
+    "en": ["Neale", "Pikachu"],
+    "zh": ["恩恩", "皮卡丘"]
+  }
+}
