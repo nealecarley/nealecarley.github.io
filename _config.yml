@@ -1,0 +1,25 @@
+# GitHub Pages configuration
+title: "Neale's Weekly Art Showcase"
+description: "A responsive website showcasing artwork on a weekly basis with bilingual stories from a 5-year-old's perspective"
+baseurl: ""
+url: "https://nealecarley.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude files from processing
+exclude:
+  - node_modules/
+  - scripts/
+  - src/data/stories/
+  - package.json
+  - package-lock.json
+  - README.md
+  - .gitignore
+  - .github/
+
+# Include files that start with underscores
+include:
+  - _config.yml

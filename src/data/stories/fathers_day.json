@@ -1,0 +1,30 @@
+{
+  "week": 2,
+  "artwork": {
+    "filename": "fathers_day.jpg",
+    "title": {
+      "en": "Portrait of Dad",
+      "zh": "爸爸的肖像"
+    }
+  },
+  "story": {
+    "en": {
+      "title": "Neale's Colorful Father's Day Masterpiece",
+      "content": "Neale wanted to make the most spectacular Father's Day present ever! He gathered his magical set of 64 crayons and created an explosion of color for his dad's portrait. In Neale's vibrant drawing, Dad had a big smile with ruby-red lips and rainbow-colored hair with stripes of electric blue, sunshine yellow, and fiery orange! His dad's eyes sparkled with emerald green, and he wore a purple polka-dot shirt with a tie that changed colors like a chameleon. Neale used his special glitter crayons to make Dad's superhero cape shimmer with golden stars. The background was a swirling kaleidoscope of colors - a blazing sunset of crimson and magenta behind a turquoise ocean. When Neale gave the picture to his dad, his dad's eyes got all watery and he gave Neale the biggest hug ever. Neale thinks his colorful drawings are magic because they can make grown-ups so happy!"
+    },
+    "zh": {
+      "title": "恩恩的彩色父亲节杰作",
+      "content": "恩恩想要制作有史以来最壮观的父亲节礼物！他拿出他神奇的64色蜡笔，为爸爸的肖像创造了一场色彩爆炸。在恩恩鲜艳的画中，爸爸有一个大大的笑容，嘴唇是宝石红色，头发是彩虹色的，有电光蓝、阳光黄和火焰橙的条纹！他爸爸的眼睛闪烁着翡翠绿色的光芒，他穿着一件紫色圆点衬衫，领带像变色龙一样变换颜色。恩恩用他特别的闪光蜡笔让爸爸的超级英雄斗篷闪烁着金色的星星。背景是一个旋转的万花筒色彩——深红色和洋红色的炽热日落，背后是绿松石色的海洋。当恩恩把画给爸爸时，爸爸的眼睛湿润了，给了恩恩有史以来最大的拥抱。恩恩认为他的彩色画是魔法，因为它们能让大人如此开心！"
+    }
+  },
+  "characters": {
+    "en": [
+      "Neale",
+      "Dad"
+    ],
+    "zh": [
+      "恩恩",
+      "爸爸"
+    ]
+  }
+}

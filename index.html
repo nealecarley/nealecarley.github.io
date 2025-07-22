@@ -3,58 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neale's Gallery</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Weekly Art Showcase</title>
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Welcome to Neale's Gallery!</h1>
+        <div class="container">
+            <h1>Neale's Weekly Art Showcase</h1>
+        </div>
     </header>
     
     <main>
-        <h2>Gallery</h2>
-        <div class="gallery">
-            <a href="images/2025/golden_gate_bridge.jpg" class="lightbox">
-                <img src="images/2025/golden_gate_bridge.jpg" alt="Golden Gate Bridge">
-            </a>
-            <a href="images/2025/fathers_day.jpg" class="lightbox">
-                <img src="images/2025/fathers_day.jpg" alt="Portrait of Dad">
-            </a>
-            <a href="images/2025/lion.jpg" class="lightbox">
-                <img src="images/2025/lion.jpg" alt="Lion with Tree">
-            </a>            
-            <a href="images/2025/boats.jpg" class="lightbox">
-                <img src="images/2025/boats.jpg" alt="Motor boats">
-            </a>
-            <a href="images/2025/boats2.jpg" class="lightbox">
-                <img src="images/2025/boats2.jpg" alt="Sail boats">
-            </a>
-            <a href="images/2025/mona_lisa.jpg" class="lightbox">
-                <img src="images/2025/mona_lisa.jpg" alt="Mona Lisa">
-            </a>
-            <a href="images/2025/panda.jpg" class="lightbox">
-                <img src="images/2025/panda.jpg" alt="Panda Eating Bamboo">
-            </a>
-            <a href="images/2025/3_pokemon.jpg" class="lightbox">
-                <img src="images/2025/3_pokemon.jpg" alt="Drawing of three pokemon">
-            </a>
-            <a href="images/2025/goose.jpg" class="lightbox">
-                <img src="images/2025/goose.jpg" alt="Drawing of a flying goose">
-            </a>
-            <a href="images/2025/pikachu.jpg" class="lightbox">
-                <img src="images/2025/pikachu.jpg" alt="Drawing of pikachu">
-            </a>
-            <a href="images/2025/ice_cream_houses.jpg" class="lightbox">
-                <img src="images/2025/ice_cream_houses.jpg" alt="Drawing of ice cream houses">
-            </a>
-            <!-- Add more images as needed -->
+        <div class="container">
+            <!-- Week Navigation -->
+            <div class="week-navigation">
+                <button id="prev-week" class="nav-button">← Previous</button>
+                <div id="week-indicator" class="week-indicator">Week 1 of 11</div>
+                <button id="next-week" class="nav-button">Next →</button>
+            </div>
+            
+            <!-- Artwork Display -->
+            <div id="artwork-container" class="artwork-container">
+                <!-- Artwork will be inserted here by JavaScript -->
+                <div class="loading">Loading artwork...</div>
+            </div>
+            
+            <!-- Language Toggle -->
+            <div class="language-toggle">
+                <button class="language-button active" data-language="en">English</button>
+                <button class="language-button" data-language="zh">中文</button>
+            </div>
+            
+            <!-- Story Display -->
+            <div id="story-container" class="story-container">
+                <!-- Story will be inserted here by JavaScript -->
+                <div class="loading">Loading story...</div>
+            </div>
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2025 Neale Carley. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 Neale's Art Showcase. All rights reserved.</p>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="src/js/app.js"></script>
 </body>
 </html>

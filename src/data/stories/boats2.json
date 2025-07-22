@@ -1,0 +1,24 @@
+{
+  "week": 5,
+  "artwork": {
+    "filename": "boats2.jpg",
+    "title": {
+      "en": "Sail Boats",
+      "zh": "帆船"
+    }
+  },
+  "story": {
+    "en": {
+      "title": "Neale's Sailing Adventure",
+      "content": "Neale drew these beautiful sailboats after watching them glide across the bay like giant butterflies on the water! He loves how the colorful sails catch the wind and make the boats dance on the waves. In his imagination, each boat is carrying explorers on a grand adventure to discover magical islands. Neale thinks the blue boat might find a treasure island, while the red one could discover a friendly sea monster who helps lost sailors find their way home. Someday, Neale wants to captain his own sailboat and explore the whole wide ocean!"
+    },
+    "zh": {
+      "title": "恩恩的帆船冒险",
+      "content": "恩恩在看到帆船像水上的巨大蝴蝶一样滑过海湾后，画下了这些美丽的帆船！他喜欢五彩缤纷的帆如何捕捉风并让船在波浪上跳舞。在他的想象中，每艘船都载着探险家，进行一场发现神奇岛屿的伟大冒险。恩恩认为蓝色的船可能会找到一个宝藏岛，而红色的船可能会发现一个友好的海怪，帮助迷路的水手找到回家的路。有一天，恩恩想要成为自己帆船的船长，探索整个广阔的海洋！"
+    }
+  },
+  "characters": {
+    "en": ["Neale", "explorers", "sea monster"],
+    "zh": ["恩恩", "探险家", "海怪"]
+  }
+}

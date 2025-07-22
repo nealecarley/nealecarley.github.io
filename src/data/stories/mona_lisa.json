@@ -1,0 +1,24 @@
+{
+  "week": 6,
+  "artwork": {
+    "filename": "mona_lisa.jpg",
+    "title": {
+      "en": "Mona Lisa",
+      "zh": "蒙娜丽莎"
+    }
+  },
+  "story": {
+    "en": {
+      "title": "Neale's Mysterious Mona Lisa",
+      "content": "Neale was so curious about the famous Mona Lisa painting that he decided to make his own version! He wondered why the lady in the painting has such a mysterious smile. Maybe she just heard a really funny joke? Or maybe she has a secret pet dragon hiding behind her chair! In Neale's version, he gave Mona Lisa rainbow-colored hair and a big ice cream cone to make her smile even bigger. Neale thinks if Leonardo da Vinci saw his painting, he would laugh and say, That's much more colorful than mine!"
+    },
+    "zh": {
+      "title": "恩恩的神秘蒙娜丽莎",
+      "content": "恩恩对著名的蒙娜丽莎画像非常好奇，所以他决定创作自己的版本！他想知道画中的女士为什么有这么神秘的微笑。也许她刚刚听到了一个非常有趣的笑话？或者她有一条秘密的宠物龙藏在她的椅子后面！在恩恩的版本中，他给蒙娜丽莎彩虹色的头发和一个大冰淇淋筒，让她的笑容更大。恩恩认为，如果达芬奇看到他的画，他会笑着说：这比我的更加多彩！"
+    }
+  },
+  "characters": {
+    "en": ["Neale", "Mona Lisa", "Leonardo da Vinci"],
+    "zh": ["恩恩", "蒙娜丽莎", "达芬奇"]
+  }
+}

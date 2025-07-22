@@ -1,0 +1,24 @@
+{
+  "week": 8,
+  "artwork": {
+    "filename": "3_pokemon.jpg",
+    "title": {
+      "en": "Three Pokemon",
+      "zh": "三只宝可梦"
+    }
+  },
+  "story": {
+    "en": {
+      "title": "Neale's Pokemon Adventure",
+      "content": "Neale loves Pokemon so much that he drew his three favorite ones having a picnic together! In his picture, Pikachu, Charmander, and Squirtle are sharing sandwiches and playing games in a sunny meadow. Neale imagines that Pikachu makes the sandwiches extra tasty by giving them a tiny zap of electricity. Charmander helps toast the bread with his flame tail, and Squirtle keeps everyone's drinks nice and cold! Neale dreams that someday he'll be a Pokemon trainer with these three as his best friends, and they'll go on amazing adventures together, discovering new Pokemon and helping people along the way."
+    },
+    "zh": {
+      "title": "恩恩的宝可梦冒险",
+      "content": "恩恩非常喜欢宝可梦，所以他画了他最喜欢的三只宝可梦一起野餐！在他的画中，皮卡丘、小火龙和杰尼龟在阳光明媚的草地上分享三明治和玩游戏。恩恩想象皮卡丘通过释放一点点电流，让三明治变得格外美味。小火龙用他的火焰尾巴帮忙烤面包，而杰尼龟则让每个人的饮料保持凉爽！恩恩梦想有一天他会成为一名宝可梦训练师，这三只宝可梦将成为他最好的朋友，他们将一起经历精彩的冒险，发现新的宝可梦，并帮助沿途的人们。"
+    }
+  },
+  "characters": {
+    "en": ["Neale", "Pikachu", "Charmander", "Squirtle"],
+    "zh": ["恩恩", "皮卡丘", "小火龙", "杰尼龟"]
+  }
+}

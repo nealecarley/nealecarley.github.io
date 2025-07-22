@@ -1,0 +1,24 @@
+{
+  "week": 1,
+  "artwork": {
+    "filename": "golden_gate_bridge.jpg",
+    "title": {
+      "en": "Golden Gate Bridge",
+      "zh": "金门大桥"
+    }
+  },
+  "story": {
+    "en": {
+      "title": "Neale's Golden Gate Bridge Adventure",
+      "content": "Once upon a time, Neale visited San Francisco and saw the magnificent Golden Gate Bridge - the biggest, reddest bridge in the whole wide world! The famous Golden Gate Bridge looked like a giant's toy bridge that someone painted with the most beautiful International Red paint ever. Neale imagined that friendly dragons lived under the Golden Gate Bridge, and they helped all the cars drive safely across San Francisco Bay. The bridge towers were so tall that Neale thought they could touch the foggy San Francisco clouds, and maybe the clouds would give them a high-five!"
+    },
+    "zh": {
+      "title": "恩恩的金门大桥冒险",
+      "content": "从前，恩恩来到旧金山，看到了壮丽的金门大桥——全世界最大、最红的桥！著名的金门大桥看起来就像巨人的玩具桥，被人用最美丽的国际橙色油漆涂过。恩恩想象着友善的龙住在金门大桥下面，它们帮助所有的汽车安全地穿过旧金山湾。桥塔是如此之高，恩恩觉得它们可以触碰到旧金山多雾的云朵，也许云朵会和它们击掌问好！"
+    }
+  },
+  "characters": {
+    "en": ["friendly dragons", "giant", "Neale"],
+    "zh": ["友善的龙", "巨人", "恩恩"]
+  }
+}

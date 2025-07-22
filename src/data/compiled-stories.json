@@ -1,0 +1,367 @@
+{
+  "stories": [
+    {
+      "week": 1,
+      "artwork": {
+        "filename": "golden_gate_bridge.jpg",
+        "title": {
+          "en": "Golden Gate Bridge",
+          "zh": "金门大桥"
+        }
+      },
+      "story": {
+        "en": {
+          "title": "Neale's Golden Gate Bridge Adventure",
+          "content": "Once upon a time, Neale visited San Francisco and saw the magnificent Golden Gate Bridge - the biggest, reddest bridge in the whole wide world! The famous Golden Gate Bridge looked like a giant's toy bridge that someone painted with the most beautiful International Red paint ever. Neale imagined that friendly dragons lived under the Golden Gate Bridge, and they helped all the cars drive safely across San Francisco Bay. The bridge towers were so tall that Neale thought they could touch the foggy San Francisco clouds, and maybe the clouds would give them a high-five!"
+        },
+        "zh": {
+          "title": "恩恩的金门大桥冒险",
+          "content": "从前，恩恩来到旧金山，看到了壮丽的金门大桥——全世界最大、最红的桥！著名的金门大桥看起来就像巨人的玩具桥，被人用最美丽的国际橙色油漆涂过。恩恩想象着友善的龙住在金门大桥下面，它们帮助所有的汽车安全地穿过旧金山湾。桥塔是如此之高，恩恩觉得它们可以触碰到旧金山多雾的云朵，也许云朵会和它们击掌问好！"
+        }
+      },
+      "characters": {
+        "en": [
+          "friendly dragons",
+          "giant",
+          "Neale"
+        ],
+        "zh": [
+          "友善的龙",
+          "巨人",
+          "恩恩"
+        ]
+      }
+    },
+    {
+      "week": 2,
+      "artwork": {
+        "filename": "fathers_day.jpg",
+        "title": {
+          "en": "Portrait of Dad",
+          "zh": "爸爸的肖像"
+        }
+      },
+      "story": {
+        "en": {
+          "title": "Neale's Father's Day Portrait",
+          "content": "Neale wanted to make the most special Father's Day present ever! He took his favorite pencil and carefully drew a beautiful black and white portrait of his dad. Even though Neale only used his pencil, he imagined all the colors in his mind while he drew! In his imagination, Dad had a big warm smile and the kindest eyes in the world. Neale drew every detail with love - Dad's gentle face, his caring expression, and even his favorite shirt. While the drawing was in pencil, Neale's heart was full of all the bright colors of his love for his dad. When Neale gave the portrait to his dad, his dad's eyes got all watery and he gave Neale the biggest hug ever. Neale thinks that even simple pencil drawings are magic because they show how much you care about someone!"
+        },
+        "zh": {
+          "title": "恩恩的父亲节肖像",
+          "content": "恩恩想要制作有史以来最特别的父亲节礼物！他拿起他最喜欢的铅笔，仔细地画了一幅美丽的爸爸黑白肖像。虽然恩恩只用了铅笔，但他在画画的时候心里想象着所有的颜色！在他的想象中，爸爸有一个温暖的大笑容和世界上最善良的眼睛。恩恩用爱画出了每一个细节——爸爸温和的脸庞、他关爱的表情，甚至还有他最喜欢的衬衫。虽然这幅画是用铅笔画的，但恩恩的心里充满了他对爸爸的爱的所有明亮色彩。当恩恩把肖像给爸爸时，爸爸的眼睛湿润了，给了恩恩有史以来最大的拥抱。恩恩认为，即使是简单的铅笔画也是魔法，因为它们显示了你对某人的关心程度！"
+        }
+      },
+      "characters": {
+        "en": [
+          "Neale",
+          "Dad"
+        ],
+        "zh": [
+          "恩恩",
+          "爸爸"
+        ]
+      }
+    },
+    {
+      "week": 3,
+      "artwork": {
+        "filename": "lion.jpg",
+        "title": {
+          "en": "Lion with Tree",
+          "zh": "树下的狮子"
+        }
+      },
+      "story": {
+        "en": {
+          "title": "Neale's Brave Lion Friend",
+          "content": "Neale drew a picture of a lion who lived under a magical tree. This lion wasn't scary at all - he was the friendliest lion in the whole jungle! The lion's favorite thing to do was to sit under his special tree and tell stories to all the animals who came to visit. Neale gave the lion a big fluffy mane that looked like sunshine, and a smile that could make anyone happy. The magical tree gave the lion special powers to protect the forest and make sure all the animals were safe and happy. Neale wishes he could visit the lion and listen to his amazing stories too!"
+        },
+        "zh": {
+          "title": "恩恩的勇敢狮子朋友",
+          "content": "恩恩画了一幅住在魔法树下的狮子。这只狮子一点也不可怕——他是整个丛林中最友好的狮子！狮子最喜欢做的事情是坐在他特别的树下，给所有来访的动物讲故事。恩恩给狮子画了一个看起来像阳光一样的大蓬松鬃毛，和一个能让任何人开心的笑容。这棵魔法树给了狮子特殊的力量，保护森林并确保所有动物都安全快乐。恩恩希望他也能去拜访狮子，听听他讲的精彩故事！"
+        }
+      },
+      "characters": {
+        "en": [
+          "Neale",
+          "friendly lion",
+          "magical tree"
+        ],
+        "zh": [
+          "恩恩",
+          "友好的狮子",
+          "魔法树"
+        ]
+      }
+    },
+    {
+      "week": 4,
+      "artwork": {
+        "filename": "boats.jpg",
+        "title": {
+          "en": "Motor Boats",
+          "zh": "摩托艇"
+        }
+      },
+      "story": {
+        "en": {
+          "title": "Neale's Speedy Boat Adventure",
+          "content": "Neale loves to draw boats that zoom super fast across the water! In his picture, the motor boats are having a big race on the bluest lake ever. The red boat is the fastest, but the blue boat has a special propeller that makes giant splashes! Neale imagines riding in the yellow boat, wearing his captain hat and waving to all the fish below. The boats make a VROOM sound that is so loud even the clouds can hear it! Neale thinks that someday he will build his own super-duper motor boat that can jump over waves and maybe even fly a little bit!"
+        },
+        "zh": {
+          "title": "恩恩的快艇冒险",
+          "content": "恩恩喜欢画在水面上飞速前进的船！在他的画中，摩托艇正在最蓝的湖上进行一场大比赛。红色的船最快，但蓝色的船有一个特殊的螺旋桨，可以激起巨大的水花！恩恩想象自己坐在黄色的船上，戴着船长帽，向下面的所有鱼儿挥手。船发出轰轰的声音，大到连云朵都能听见！恩恩认为，有一天他会建造自己的超级摩托艇，可以跳过波浪，甚至可能还能飞一点点！"
+        }
+      },
+      "characters": {
+        "en": [
+          "Neale",
+          "racing boats",
+          "fish"
+        ],
+        "zh": [
+          "恩恩",
+          "赛艇",
+          "鱼"
+        ]
+      }
+    },
+    {
+      "week": 5,
+      "artwork": {
+        "filename": "boats2.jpg",
+        "title": {
+          "en": "Sail Boats",
+          "zh": "帆船"
+        }
+      },
+      "story": {
+        "en": {
+          "title": "Neale's Sailing Adventure",
+          "content": "Neale drew these beautiful sailboats after watching them glide across the bay like giant butterflies on the water! He loves how the colorful sails catch the wind and make the boats dance on the waves. In his imagination, each boat is carrying explorers on a grand adventure to discover magical islands. Neale thinks the blue boat might find a treasure island, while the red one could discover a friendly sea monster who helps lost sailors find their way home. Someday, Neale wants to captain his own sailboat and explore the whole wide ocean!"
+        },
+        "zh": {
+          "title": "恩恩的帆船冒险",
+          "content": "恩恩在看到帆船像水上的巨大蝴蝶一样滑过海湾后，画下了这些美丽的帆船！他喜欢五彩缤纷的帆如何捕捉风并让船在波浪上跳舞。在他的想象中，每艘船都载着探险家，进行一场发现神奇岛屿的伟大冒险。恩恩认为蓝色的船可能会找到一个宝藏岛，而红色的船可能会发现一个友好的海怪，帮助迷路的水手找到回家的路。有一天，恩恩想要成为自己帆船的船长，探索整个广阔的海洋！"
+        }
+      },
+      "characters": {
+        "en": [
+          "Neale",
+          "explorers",
+          "sea monster"
+        ],
+        "zh": [
+          "恩恩",
+          "探险家",
+          "海怪"
+        ]
+      }
+    },
+    {
+      "week": 6,
+      "artwork": {
+        "filename": "mona_lisa.jpg",
+        "title": {
+          "en": "Mona Lisa",
+          "zh": "蒙娜丽莎"
+        }
+      },
+      "story": {
+        "en": {
+          "title": "Neale's Mysterious Mona Lisa",
+          "content": "Neale was so curious about the famous Mona Lisa painting that he decided to make his own version! He wondered why the lady in the painting has such a mysterious smile. Maybe she just heard a really funny joke? Or maybe she has a secret pet dragon hiding behind her chair! In Neale's version, he gave Mona Lisa rainbow-colored hair and a big ice cream cone to make her smile even bigger. Neale thinks if Leonardo da Vinci saw his painting, he would laugh and say, That's much more colorful than mine!"
+        },
+        "zh": {
+          "title": "恩恩的神秘蒙娜丽莎",
+          "content": "恩恩对著名的蒙娜丽莎画像非常好奇，所以他决定创作自己的版本！他想知道画中的女士为什么有这么神秘的微笑。也许她刚刚听到了一个非常有趣的笑话？或者她有一条秘密的宠物龙藏在她的椅子后面！在恩恩的版本中，他给蒙娜丽莎彩虹色的头发和一个大冰淇淋筒，让她的笑容更大。恩恩认为，如果达芬奇看到他的画，他会笑着说：这比我的更加多彩！"
+        }
+      },
+      "characters": {
+        "en": [
+          "Neale",
+          "Mona Lisa",
+          "Leonardo da Vinci"
+        ],
+        "zh": [
+          "恩恩",
+          "蒙娜丽莎",
+          "达芬奇"
+        ]
+      }
+    },
+    {
+      "week": 7,
+      "artwork": {
+        "filename": "panda.jpg",
+        "title": {
+          "en": "Panda Eating Bamboo",
+          "zh": "吃竹子的熊猫"
+        }
+      },
+      "story": {
+        "en": {
+          "title": "Neale's Panda Friend",
+          "content": "Neale drew this fluffy panda after learning that pandas eat bamboo all day long! In his picture, the panda is having a super bamboo feast in a magical forest. This special panda can talk, and he told Neale that bamboo tastes like the best ice cream in the world to pandas! The panda in Neale's drawing has extra big eyes to spot the tastiest bamboo shoots from far away. Neale imagines that if he could be a panda for a day, he would build a bamboo house and have bamboo pancakes for breakfast, bamboo sandwiches for lunch, and bamboo pizza for dinner!"
+        },
+        "zh": {
+          "title": "恩恩的熊猫朋友",
+          "content": "恩恩在了解到熊猫整天都在吃竹子后，画了这只毛茸茸的熊猫！在他的画中，熊猫正在魔法森林里享用一顿超级竹子盛宴。这只特别的熊猫会说话，它告诉恩恩，对熊猫来说，竹子尝起来像世界上最好的冰淇淋！恩恩画中的熊猫有特别大的眼睛，可以从远处发现最美味的竹笋。恩恩想象，如果他能当一天熊猫，他会建一座竹子房子，早餐吃竹子煎饼，午餐吃竹子三明治，晚餐吃竹子披萨！"
+        }
+      },
+      "characters": {
+        "en": [
+          "Neale",
+          "talking panda"
+        ],
+        "zh": [
+          "恩恩",
+          "会说话的熊猫"
+        ]
+      }
+    },
+    {
+      "week": 8,
+      "artwork": {
+        "filename": "3_pokemon.jpg",
+        "title": {
+          "en": "Three Pokemon",
+          "zh": "三只宝可梦"
+        }
+      },
+      "story": {
+        "en": {
+          "title": "Neale's Pokemon Adventure",
+          "content": "Neale loves Pokemon so much that he drew his three favorite ones having a picnic together! In his picture, Pikachu, Charmander, and Squirtle are sharing sandwiches and playing games in a sunny meadow. Neale imagines that Pikachu makes the sandwiches extra tasty by giving them a tiny zap of electricity. Charmander helps toast the bread with his flame tail, and Squirtle keeps everyone's drinks nice and cold! Neale dreams that someday he'll be a Pokemon trainer with these three as his best friends, and they'll go on amazing adventures together, discovering new Pokemon and helping people along the way."
+        },
+        "zh": {
+          "title": "恩恩的宝可梦冒险",
+          "content": "恩恩非常喜欢宝可梦，所以他画了他最喜欢的三只宝可梦一起野餐！在他的画中，皮卡丘、小火龙和杰尼龟在阳光明媚的草地上分享三明治和玩游戏。恩恩想象皮卡丘通过释放一点点电流，让三明治变得格外美味。小火龙用他的火焰尾巴帮忙烤面包，而杰尼龟则让每个人的饮料保持凉爽！恩恩梦想有一天他会成为一名宝可梦训练师，这三只宝可梦将成为他最好的朋友，他们将一起经历精彩的冒险，发现新的宝可梦，并帮助沿途的人们。"
+        }
+      },
+      "characters": {
+        "en": [
+          "Neale",
+          "Pikachu",
+          "Charmander",
+          "Squirtle"
+        ],
+        "zh": [
+          "恩恩",
+          "皮卡丘",
+          "小火龙",
+          "杰尼龟"
+        ]
+      }
+    },
+    {
+      "week": 9,
+      "artwork": {
+        "filename": "goose.jpg",
+        "title": {
+          "en": "Flying Goose",
+          "zh": "飞行的鹅"
+        }
+      },
+      "story": {
+        "en": {
+          "title": "Neale's Soaring Goose",
+          "content": "Neale drew this magnificent goose after watching a flock of geese fly over his house in a perfect V-shape! In his picture, this special goose is the leader of the flock, guiding all the other geese on an exciting journey south for the winter. Neale gave the goose extra-strong wings that can fly higher than any other bird, even above the clouds! The goose in Neale's drawing wears a tiny captain's hat and carries a map to make sure none of the other geese get lost. Neale thinks it would be amazing to ride on the back of this giant goose and see the whole world from way up high in the sky!"
+        },
+        "zh": {
+          "title": "恩恩的翱翔的鹅",
+          "content": "恩恩在看到一群鹅以完美的V形飞过他的房子后，画了这只壮丽的鹅！在他的画中，这只特别的鹅是鹅群的领导者，引导所有其他的鹅进行一次令人兴奋的南飞冬季之旅。恩恩给这只鹅画了特别强壮的翅膀，可以飞得比任何其他鸟儿都高，甚至飞到云层之上！恩恩画中的鹅戴着一顶小小的船长帽，并携带着一张地图，确保没有其他鹅迷路。恩恩认为，骑在这只巨大的鹅背上，从高空中看整个世界，一定非常神奇！"
+        }
+      },
+      "characters": {
+        "en": [
+          "Neale",
+          "captain goose",
+          "flock of geese"
+        ],
+        "zh": [
+          "恩恩",
+          "船长鹅",
+          "鹅群"
+        ]
+      }
+    },
+    {
+      "week": 10,
+      "artwork": {
+        "filename": "pikachu.jpg",
+        "title": {
+          "en": "Pikachu",
+          "zh": "皮卡丘"
+        }
+      },
+      "story": {
+        "en": {
+          "title": "Neale's Electric Friend Pikachu",
+          "content": "Neale loves Pikachu so much that he drew this special picture of his favorite electric Pokemon! In his drawing, Pikachu is showing off his amazing electric powers, making colorful sparks fly everywhere. Neale imagines that this Pikachu can power up his whole house when the electricity goes out during a storm. The Pikachu in Neale's picture has extra rosy cheeks that glow in the dark and a lightning-bolt tail that can point the way home if you get lost. Neale dreams that one day he'll have a real Pikachu as a friend who can help charge his toys and make toast just by touching the bread with his electric paws!"
+        },
+        "zh": {
+          "title": "恩恩的电力朋友皮卡丘",
+          "content": "恩恩非常喜欢皮卡丘，所以他画了这幅特别的画，描绘他最喜欢的电系宝可梦！在他的画中，皮卡丘正在展示他惊人的电力，让五彩缤纷的火花四处飞舞。恩恩想象，当暴风雨导致停电时，这只皮卡丘可以为他的整个房子供电。恩恩画中的皮卡丘有特别红润的脸颊，在黑暗中会发光，还有一个闪电形状的尾巴，如果你迷路了，它可以指引你回家的路。恩恩梦想有一天他会有一只真正的皮卡丘作为朋友，它可以帮助给他的玩具充电，只需用它的电力爪子触碰面包就能做出烤面包！"
+        }
+      },
+      "characters": {
+        "en": [
+          "Neale",
+          "Pikachu"
+        ],
+        "zh": [
+          "恩恩",
+          "皮卡丘"
+        ]
+      }
+    },
+    {
+      "week": 11,
+      "artwork": {
+        "filename": "ice_cream_houses.jpg",
+        "title": {
+          "en": "Ice Cream Houses",
+          "zh": "冰淇淋房子"
+        }
+      },
+      "story": {
+        "en": {
+          "title": "Neale's Ice Cream Village",
+          "content": "Neale had the most delicious dream about houses made of ice cream, so he drew this magical ice cream village! In his picture, each house is made from a different flavor - there's a chocolate house with sprinkle windows, a strawberry house with waffle cone doors, and a mint chip house with cookie shutters. The people who live in these houses never have to worry about being hungry because they can just lick the walls for a tasty snack! The only problem is that on hot summer days, everyone has to work together with giant freezers to keep their houses from melting. Neale thinks the best part about living in an ice cream house would be waking up to the smell of waffle cones every morning!"
+        },
+        "zh": {
+          "title": "恩恩的冰淇淋村庄",
+          "content": "恩恩做了一个关于冰淇淋房子的美味梦，所以他画了这个神奇的冰淇淋村庄！在他的画中，每座房子都是由不同口味的冰淇淋制成——有一座巧克力房子，窗户是彩色糖针；有一座草莓房子，门是华夫饼蛋筒；还有一座薄荷巧克力碎房子，百叶窗是饼干做的。住在这些房子里的人永远不用担心饿肚子，因为他们可以舔墙壁来享用美味的点心！唯一的问题是，在炎热的夏日，每个人都必须一起使用巨大的冰箱来防止他们的房子融化。恩恩认为，住在冰淇淋房子里最好的部分是每天早晨醒来都能闻到华夫饼蛋筒的香味！"
+        }
+      },
+      "characters": {
+        "en": [
+          "Neale",
+          "ice cream village people"
+        ],
+        "zh": [
+          "恩恩",
+          "冰淇淋村庄的居民"
+        ]
+      }
+    }
+  ],
+  "config": {
+    "totalWeeks": 11,
+    "artworkRotation": [
+      "golden_gate_bridge.jpg",
+      "fathers_day.jpg",
+      "lion.jpg",
+      "boats.jpg",
+      "boats2.jpg",
+      "mona_lisa.jpg",
+      "panda.jpg",
+      "3_pokemon.jpg",
+      "goose.jpg",
+      "pikachu.jpg",
+      "ice_cream_houses.jpg"
+    ],
+    "startDate": "2025-01-20"
+  }
+}
