@@ -9,16 +9,18 @@
   },
   "story": {
     "en": {
-      "title": "Neale's Soaring Goose",
-      "content": "Neale drew this magnificent goose after watching a flock of geese fly over his house in a perfect V-shape! In his picture, this special goose is the leader of the flock, guiding all the other geese on an exciting journey south for the winter. Neale gave the goose extra-strong wings that can fly higher than any other bird, even above the clouds! The goose in Neale's drawing wears a tiny captain's hat and carries a map to make sure none of the other geese get lost. Neale thinks it would be amazing to ride on the back of this giant goose and see the whole world from way up high in the sky!"
+      "title": "Master of the Autumn Sky",
+      "content": "High above the earth, a Canada goose glides effortlessly through the crisp autumn air. Neale's pencil captured the bird in perfect flight - wings outstretched, neck extended, embodying the grace and power of wild migration. Every feather is carefully rendered, showing the intricate patterns that help this remarkable bird navigate thousands of miles. This isn't just any goose; this is a navigator, following ancient flyways passed down through generations. The sketch shows the determination in the goose's posture as it journeys toward warmer lands, carrying with it the wisdom of countless migrations. Watching geese fly overhead always fills Neale with wonder about the incredible journeys these birds make twice each year, guided only by instinct and the stars."
     },
     "zh": {
-      "title": "恩恩的翱翔的鹅",
-      "content": "恩恩在看到一群鹅以完美的V形飞过他的房子后，画了这只壮丽的鹅！在他的画中，这只特别的鹅是鹅群的领导者，引导所有其他的鹅进行一次令人兴奋的南飞冬季之旅。恩恩给这只鹅画了特别强壮的翅膀，可以飞得比任何其他鸟儿都高，甚至飞到云层之上！恩恩画中的鹅戴着一顶小小的船长帽，并携带着一张地图，确保没有其他鹅迷路。恩恩认为，骑在这只巨大的鹅背上，从高空中看整个世界，一定非常神奇！"
+      "title": "秋空的主人",
+      "content": "在地球高空，一只加拿大鹅在清爽的秋日空气中毫不费力地滑翔。恩恩的铅笔捕捉到了这只鸟完美的飞行姿态——翅膀展开，脖子伸长，体现了野生迁徙的优雅和力量。每根羽毛都被仔细描绘，显示了帮助这只非凡鸟类导航数千英里的复杂图案。这不仅仅是任何一只鹅；这是一个导航者，遵循着代代相传的古老飞行路线。素描显示了鹅在向温暖土地旅行时姿态中的决心，带着无数次迁徙的智慧。看着鹅群飞过头顶总是让恩恩对这些鸟类每年两次进行的不可思议的旅程充满惊奇，它们仅凭本能和星星的指引。"
     }
   },
   "characters": {
-    "en": ["Neale", "captain goose", "flock of geese"],
-    "zh": ["恩恩", "船长鹅", "鹅群"]
-  }
+    "en": ["Neale", "Canada goose", "migrating flocks"],
+    "zh": ["恩恩", "加拿大鹅", "迁徙的鹅群"]
+  },
+  "artworkType": "wildlife_study",
+  "colorScheme": "black_and_white"
 }

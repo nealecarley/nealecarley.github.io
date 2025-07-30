@@ -9,16 +9,18 @@
   },
   "story": {
     "en": {
-      "title": "Neale's Mysterious Mona Lisa",
-      "content": "Neale was so curious about the famous Mona Lisa painting that he decided to make his own version! He wondered why the lady in the painting has such a mysterious smile. Maybe she just heard a really funny joke? Or maybe she has a secret pet dragon hiding behind her chair! In Neale's version, he gave Mona Lisa rainbow-colored hair and a big ice cream cone to make her smile even bigger. Neale thinks if Leonardo da Vinci saw his painting, he would laugh and say, That's much more colorful than mine!"
+      "title": "The Secret Behind the Smile",
+      "content": "What makes someone smile like that? Neale studied the famous portrait, trying to understand the mystery behind Mona Lisa's gentle expression. In his own pencil interpretation, he focused on capturing that same enigmatic quality - the way her eyes seem to follow you, the subtle curve of her lips that suggests she knows something wonderful. The careful shading in Neale's drawing shows how light and shadow can create depth and emotion, even in black and white. Perhaps the real secret isn't what she's thinking about, but how the artist managed to capture a moment that feels so alive and present. Every time Neale looks at his version, he discovers something new in the expression, just like people have been doing with the original for centuries."
     },
     "zh": {
-      "title": "恩恩的神秘蒙娜丽莎",
-      "content": "恩恩对著名的蒙娜丽莎画像非常好奇，所以他决定创作自己的版本！他想知道画中的女士为什么有这么神秘的微笑。也许她刚刚听到了一个非常有趣的笑话？或者她有一条秘密的宠物龙藏在她的椅子后面！在恩恩的版本中，他给蒙娜丽莎彩虹色的头发和一个大冰淇淋筒，让她的笑容更大。恩恩认为，如果达芬奇看到他的画，他会笑着说：这比我的更加多彩！"
+      "title": "微笑背后的秘密",
+      "content": "是什么让人那样微笑？恩恩研究着这幅著名的肖像，试图理解蒙娜丽莎温和表情背后的神秘。在他自己的铅笔诠释中，他专注于捕捉同样神秘的品质——她的眼睛似乎跟随着你的方式，她嘴唇的微妙曲线暗示着她知道一些美好的事情。恩恩画中仔细的阴影显示了光影如何创造深度和情感，即使在黑白中也是如此。也许真正的秘密不是她在想什么，而是艺术家如何设法捕捉到一个感觉如此生动和现实的时刻。每次恩恩看他的版本时，他都会在表情中发现新的东西，就像人们几个世纪以来对原作所做的那样。"
     }
   },
   "characters": {
-    "en": ["Neale", "Mona Lisa", "Leonardo da Vinci"],
-    "zh": ["恩恩", "蒙娜丽莎", "达芬奇"]
-  }
+    "en": ["Neale", "Mona Lisa"],
+    "zh": ["恩恩", "蒙娜丽莎"]
+  },
+  "artworkType": "portrait_study",
+  "colorScheme": "black_and_white"
 }

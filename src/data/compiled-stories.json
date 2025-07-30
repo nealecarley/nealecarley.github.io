@@ -11,26 +11,28 @@
       },
       "story": {
         "en": {
-          "title": "Neale's Golden Gate Bridge Adventure",
-          "content": "Once upon a time, Neale visited San Francisco and saw the magnificent Golden Gate Bridge - the biggest, reddest bridge in the whole wide world! The famous Golden Gate Bridge looked like a giant's toy bridge that someone painted with the most beautiful International Red paint ever. Neale imagined that friendly dragons lived under the Golden Gate Bridge, and they helped all the cars drive safely across San Francisco Bay. The bridge towers were so tall that Neale thought they could touch the foggy San Francisco clouds, and maybe the clouds would give them a high-five!"
+          "title": "The Bridge That Touches the Sky",
+          "content": "Standing at the edge of San Francisco Bay, Neale gazed up at the towering Golden Gate Bridge. The massive structure stretched across the water like a gentle giant, its cables creating intricate patterns against the gray sky. In his sketch, Neale captured the bridge's graceful arches and the way fog danced around its towers. He imagined the bridge as a guardian watching over the bay, strong enough to carry thousands of cars but gentle enough not to disturb the seabirds nesting on its beams. The pencil lines in his drawing showed how the bridge seemed to disappear into the mist, as if it were reaching up to shake hands with the clouds themselves."
         },
         "zh": {
-          "title": "恩恩的金门大桥冒险",
-          "content": "从前，恩恩来到旧金山，看到了壮丽的金门大桥——全世界最大、最红的桥！著名的金门大桥看起来就像巨人的玩具桥，被人用最美丽的国际橙色油漆涂过。恩恩想象着友善的龙住在金门大桥下面，它们帮助所有的汽车安全地穿过旧金山湾。桥塔是如此之高，恩恩觉得它们可以触碰到旧金山多雾的云朵，也许云朵会和它们击掌问好！"
+          "title": "触碰天空的桥梁",
+          "content": "站在旧金山湾边，恩恩仰望着高耸的金门大桥。这座巨大的建筑像温和的巨人一样横跨水面，它的缆绳在灰色天空中形成复杂的图案。在他的素描中，恩恩捕捉到了桥梁优雅的拱形和雾气在桥塔周围舞动的样子。他想象这座桥是海湾的守护者，强大到足以承载数千辆汽车，但又温和到不会打扰在其横梁上筑巢的海鸟。他画中的铅笔线条显示了桥梁似乎消失在薄雾中的样子，仿佛它正伸手与云朵握手。"
         }
       },
       "characters": {
         "en": [
-          "friendly dragons",
-          "giant",
-          "Neale"
+          "Neale",
+          "seabirds",
+          "gentle giant"
         ],
         "zh": [
-          "友善的龙",
-          "巨人",
-          "恩恩"
+          "恩恩",
+          "海鸟",
+          "温和的巨人"
         ]
-      }
+      },
+      "artworkType": "landscape_sketch",
+      "colorScheme": "black_and_white"
     },
     {
       "week": 2,
@@ -43,12 +45,12 @@
       },
       "story": {
         "en": {
-          "title": "Neale's Father's Day Portrait",
-          "content": "Neale wanted to make the most special Father's Day present ever! He took his favorite pencil and carefully drew a beautiful black and white portrait of his dad. Even though Neale only used his pencil, he imagined all the colors in his mind while he drew! In his imagination, Dad had a big warm smile and the kindest eyes in the world. Neale drew every detail with love - Dad's gentle face, his caring expression, and even his favorite shirt. While the drawing was in pencil, Neale's heart was full of all the bright colors of his love for his dad. When Neale gave the portrait to his dad, his dad's eyes got all watery and he gave Neale the biggest hug ever. Neale thinks that even simple pencil drawings are magic because they show how much you care about someone!"
+          "title": "A Special Portrait for Dad",
+          "content": "With careful strokes of his pencil, Neale captured something precious - his dad's gentle smile and kind eyes. The black and white portrait shows every detail that matters: the way Dad's eyes crinkle when he's happy, the familiar shape of his face, and that warm expression that makes Neale feel safe. Even without colors, the drawing holds all of Neale's love. He spent extra time getting Dad's smile just right, erasing and redrawing until it looked perfect. When Father's Day arrived, Neale proudly presented his artwork. Dad held the portrait carefully, studying every pencil line, and his eyes grew misty. 'This is the most beautiful gift I've ever received,' Dad whispered, pulling Neale into the biggest hug. Sometimes the most meaningful art comes from the heart, not from a box of crayons."
         },
         "zh": {
-          "title": "恩恩的父亲节肖像",
-          "content": "恩恩想要制作有史以来最特别的父亲节礼物！他拿起他最喜欢的铅笔，仔细地画了一幅美丽的爸爸黑白肖像。虽然恩恩只用了铅笔，但他在画画的时候心里想象着所有的颜色！在他的想象中，爸爸有一个温暖的大笑容和世界上最善良的眼睛。恩恩用爱画出了每一个细节——爸爸温和的脸庞、他关爱的表情，甚至还有他最喜欢的衬衫。虽然这幅画是用铅笔画的，但恩恩的心里充满了他对爸爸的爱的所有明亮色彩。当恩恩把肖像给爸爸时，爸爸的眼睛湿润了，给了恩恩有史以来最大的拥抱。恩恩认为，即使是简单的铅笔画也是魔法，因为它们显示了你对某人的关心程度！"
+          "title": "给爸爸的特别肖像",
+          "content": "恩恩用铅笔仔细地勾勒，捕捉到了珍贵的东西——爸爸温和的笑容和善良的眼睛。这幅黑白肖像展现了所有重要的细节：爸爸开心时眼角的皱纹，熟悉的脸型，以及那种让恩恩感到安全的温暖表情。即使没有颜色，这幅画也承载着恩恩所有的爱。他花了额外的时间来画好爸爸的笑容，擦了又画，直到看起来完美为止。父亲节到来时，恩恩自豪地展示了他的艺术作品。爸爸小心地拿着肖像，仔细端详着每一条铅笔线，眼睛湿润了。'这是我收到过的最美丽的礼物，'爸爸轻声说道，给了恩恩一个大大的拥抱。有时候，最有意义的艺术来自内心，而不是来自一盒蜡笔。"
         }
       },
       "characters": {
@@ -60,7 +62,9 @@
           "恩恩",
           "爸爸"
         ]
-      }
+      },
+      "artworkType": "pencil_portrait",
+      "colorScheme": "black_and_white"
     },
     {
       "week": 3,
@@ -73,26 +77,28 @@
       },
       "story": {
         "en": {
-          "title": "Neale's Brave Lion Friend",
-          "content": "Neale drew a picture of a lion who lived under a magical tree. This lion wasn't scary at all - he was the friendliest lion in the whole jungle! The lion's favorite thing to do was to sit under his special tree and tell stories to all the animals who came to visit. Neale gave the lion a big fluffy mane that looked like sunshine, and a smile that could make anyone happy. The magical tree gave the lion special powers to protect the forest and make sure all the animals were safe and happy. Neale wishes he could visit the lion and listen to his amazing stories too!"
+          "title": "The Peaceful King of the Savanna",
+          "content": "In the shade of an ancient baobab tree, a majestic lion rests peacefully. Neale's pencil captured the quiet dignity of this king of beasts - not fierce or roaring, but calm and contemplative. The detailed shading shows the texture of the lion's magnificent mane and the weathered bark of the old tree that has provided shelter for countless generations. This isn't a story of hunting or danger, but of harmony between the mighty lion and his leafy companion. The tree's branches seem to embrace the lion protectively, while the lion's presence guards the tree from harm. Together, they represent the perfect balance of strength and gentleness that exists in nature's most peaceful moments."
         },
         "zh": {
-          "title": "恩恩的勇敢狮子朋友",
-          "content": "恩恩画了一幅住在魔法树下的狮子。这只狮子一点也不可怕——他是整个丛林中最友好的狮子！狮子最喜欢做的事情是坐在他特别的树下，给所有来访的动物讲故事。恩恩给狮子画了一个看起来像阳光一样的大蓬松鬃毛，和一个能让任何人开心的笑容。这棵魔法树给了狮子特殊的力量，保护森林并确保所有动物都安全快乐。恩恩希望他也能去拜访狮子，听听他讲的精彩故事！"
+          "title": "草原上的和平之王",
+          "content": "在古老猴面包树的阴影下，一只威严的狮子安静地休息着。恩恩的铅笔捕捉到了这位兽王安静的尊严——不是凶猛或咆哮，而是平静和沉思。细致的阴影显示了狮子壮丽鬃毛的质感和为无数代提供庇护的老树风化的树皮。这不是一个关于狩猎或危险的故事，而是关于威严的狮子与他的绿叶伙伴之间和谐相处的故事。树枝似乎保护性地拥抱着狮子，而狮子的存在也保护着树免受伤害。它们一起代表了自然最和平时刻中力量与温柔的完美平衡。"
         }
       },
       "characters": {
         "en": [
           "Neale",
-          "friendly lion",
-          "magical tree"
+          "majestic lion",
+          "ancient baobab tree"
         ],
         "zh": [
           "恩恩",
-          "友好的狮子",
-          "魔法树"
+          "威严的狮子",
+          "古老的猴面包树"
         ]
-      }
+      },
+      "artworkType": "nature_study",
+      "colorScheme": "black_and_white"
     },
     {
       "week": 4,
@@ -105,58 +111,60 @@
       },
       "story": {
         "en": {
-          "title": "Neale's Speedy Boat Adventure",
-          "content": "Neale loves to draw boats that zoom super fast across the water! In his picture, the motor boats are having a big race on the bluest lake ever. The red boat is the fastest, but the blue boat has a special propeller that makes giant splashes! Neale imagines riding in the yellow boat, wearing his captain hat and waving to all the fish below. The boats make a VROOM sound that is so loud even the clouds can hear it! Neale thinks that someday he will build his own super-duper motor boat that can jump over waves and maybe even fly a little bit!"
+          "title": "Racing Across the Water",
+          "content": "The harbor comes alive with the rumble of powerful engines as sleek motorboats prepare for their morning adventure. Neale's sketch captures the dynamic energy of these vessels cutting through the water, their hulls designed for speed and their wake trailing behind like liquid ribbons. Each boat tells its own story - some built for fishing expeditions, others for weekend family outings, and a few clearly meant for the thrill of racing across open water. The careful pencil strokes show how sunlight would dance on the water's surface and reflect off the boats' polished surfaces. There's something exciting about boats that can go fast - they represent freedom, adventure, and the endless possibilities that wait beyond the horizon."
         },
         "zh": {
-          "title": "恩恩的快艇冒险",
-          "content": "恩恩喜欢画在水面上飞速前进的船！在他的画中，摩托艇正在最蓝的湖上进行一场大比赛。红色的船最快，但蓝色的船有一个特殊的螺旋桨，可以激起巨大的水花！恩恩想象自己坐在黄色的船上，戴着船长帽，向下面的所有鱼儿挥手。船发出轰轰的声音，大到连云朵都能听见！恩恩认为，有一天他会建造自己的超级摩托艇，可以跳过波浪，甚至可能还能飞一点点！"
+          "title": "在水面上飞驰",
+          "content": "随着强大引擎的轰鸣声，港口变得生机勃勃，流线型摩托艇准备开始他们的晨间冒险。恩恩的素描捕捉到了这些船只划破水面的动态能量，它们的船体为速度而设计，尾流像液体丝带一样在后面飘荡。每艘船都讲述着自己的故事——有些是为钓鱼探险而建造的，有些是为周末家庭出游，还有一些显然是为了在开阔水域上飞驰的刺激而设计的。仔细的铅笔笔触显示了阳光如何在水面上跳舞，并从船只抛光的表面反射出来。快速行驶的船只有一种令人兴奋的东西——它们代表着自由、冒险，以及在地平线之外等待的无限可能。"
         }
       },
       "characters": {
         "en": [
           "Neale",
-          "racing boats",
-          "fish"
+          "boat captains",
+          "adventurers"
         ],
         "zh": [
           "恩恩",
-          "赛艇",
-          "鱼"
+          "船长们",
+          "冒险家们"
         ]
-      }
+      },
+      "artworkType": "marine_sketch",
+      "colorScheme": "black_and_white"
     },
     {
       "week": 5,
       "artwork": {
         "filename": "boats2.jpg",
         "title": {
-          "en": "Sail Boats",
-          "zh": "帆船"
+          "en": "Watermelon Boat",
+          "zh": "西瓜船"
         }
       },
       "story": {
         "en": {
-          "title": "Neale's Sailing Adventure",
-          "content": "Neale drew these beautiful sailboats after watching them glide across the bay like giant butterflies on the water! He loves how the colorful sails catch the wind and make the boats dance on the waves. In his imagination, each boat is carrying explorers on a grand adventure to discover magical islands. Neale thinks the blue boat might find a treasure island, while the red one could discover a friendly sea monster who helps lost sailors find their way home. Someday, Neale wants to captain his own sailboat and explore the whole wide ocean!"
+          "title": "The Most Delicious Boat Ever",
+          "content": "What happens when you combine summer fun with creative thinking? You get a watermelon boat! Neale's colorful drawing shows the most amazing vessel ever - a bright green watermelon carved into a perfect boat shape, complete with red juicy flesh inside. This isn't just any ordinary boat; it's a snack and transportation all in one! The vibrant green rind forms the hull, while the sweet red interior provides comfortable seating for tiny passengers. Neale imagines sailing across a blue summer lake in this fruity vessel, and when you get hungry during the voyage, you can simply take a bite of your boat! The black seeds scattered throughout could serve as tiny anchors, and the refreshing watermelon juice would keep everyone cool on hot summer days."
         },
         "zh": {
-          "title": "恩恩的帆船冒险",
-          "content": "恩恩在看到帆船像水上的巨大蝴蝶一样滑过海湾后，画下了这些美丽的帆船！他喜欢五彩缤纷的帆如何捕捉风并让船在波浪上跳舞。在他的想象中，每艘船都载着探险家，进行一场发现神奇岛屿的伟大冒险。恩恩认为蓝色的船可能会找到一个宝藏岛，而红色的船可能会发现一个友好的海怪，帮助迷路的水手找到回家的路。有一天，恩恩想要成为自己帆船的船长，探索整个广阔的海洋！"
+          "title": "史上最美味的船",
+          "content": "当你把夏日乐趣与创意思维结合起来会发生什么？你会得到一艘西瓜船！恩恩的彩色画作展示了最神奇的船只——一个明亮的绿色西瓜被雕刻成完美的船形，里面有红色多汁的果肉。这不是普通的船；它是零食和交通工具的完美结合！鲜艳的绿色瓜皮形成船体，而甜美的红色内部为小乘客提供舒适的座位。恩恩想象着在这艘水果船上航行在蓝色的夏日湖泊上，当你在航行中饿了的时候，你可以简单地咬一口你的船！散布在各处的黑色种子可以作为小锚，清爽的西瓜汁会让每个人在炎热的夏日保持凉爽。"
         }
       },
       "characters": {
         "en": [
           "Neale",
-          "explorers",
-          "sea monster"
+          "tiny passengers are ants and bugs"
         ],
         "zh": [
           "恩恩",
-          "探险家",
-          "海怪"
+          "小乘客们"
         ]
-      }
+      },
+      "artworkType": "creative_illustration",
+      "colorScheme": "black_and_white"
     },
     {
       "week": 6,
@@ -169,26 +177,26 @@
       },
       "story": {
         "en": {
-          "title": "Neale's Mysterious Mona Lisa",
-          "content": "Neale was so curious about the famous Mona Lisa painting that he decided to make his own version! He wondered why the lady in the painting has such a mysterious smile. Maybe she just heard a really funny joke? Or maybe she has a secret pet dragon hiding behind her chair! In Neale's version, he gave Mona Lisa rainbow-colored hair and a big ice cream cone to make her smile even bigger. Neale thinks if Leonardo da Vinci saw his painting, he would laugh and say, That's much more colorful than mine!"
+          "title": "The Secret Behind the Smile",
+          "content": "What makes someone smile like that? Neale studied the famous portrait, trying to understand the mystery behind Mona Lisa's gentle expression. In his own pencil interpretation, he focused on capturing that same enigmatic quality - the way her eyes seem to follow you, the subtle curve of her lips that suggests she knows something wonderful. The careful shading in Neale's drawing shows how light and shadow can create depth and emotion, even in black and white. Perhaps the real secret isn't what she's thinking about, but how the artist managed to capture a moment that feels so alive and present. Every time Neale looks at his version, he discovers something new in the expression, just like people have been doing with the original for centuries."
         },
         "zh": {
-          "title": "恩恩的神秘蒙娜丽莎",
-          "content": "恩恩对著名的蒙娜丽莎画像非常好奇，所以他决定创作自己的版本！他想知道画中的女士为什么有这么神秘的微笑。也许她刚刚听到了一个非常有趣的笑话？或者她有一条秘密的宠物龙藏在她的椅子后面！在恩恩的版本中，他给蒙娜丽莎彩虹色的头发和一个大冰淇淋筒，让她的笑容更大。恩恩认为，如果达芬奇看到他的画，他会笑着说：这比我的更加多彩！"
+          "title": "微笑背后的秘密",
+          "content": "是什么让人那样微笑？恩恩研究着这幅著名的肖像，试图理解蒙娜丽莎温和表情背后的神秘。在他自己的铅笔诠释中，他专注于捕捉同样神秘的品质——她的眼睛似乎跟随着你的方式，她嘴唇的微妙曲线暗示着她知道一些美好的事情。恩恩画中仔细的阴影显示了光影如何创造深度和情感，即使在黑白中也是如此。也许真正的秘密不是她在想什么，而是艺术家如何设法捕捉到一个感觉如此生动和现实的时刻。每次恩恩看他的版本时，他都会在表情中发现新的东西，就像人们几个世纪以来对原作所做的那样。"
         }
       },
       "characters": {
         "en": [
           "Neale",
-          "Mona Lisa",
-          "Leonardo da Vinci"
+          "Mona Lisa"
         ],
         "zh": [
           "恩恩",
-          "蒙娜丽莎",
-          "达芬奇"
+          "蒙娜丽莎"
         ]
-      }
+      },
+      "artworkType": "portrait_study",
+      "colorScheme": "black_and_white"
     },
     {
       "week": 7,
@@ -201,24 +209,26 @@
       },
       "story": {
         "en": {
-          "title": "Neale's Panda Friend",
-          "content": "Neale drew this fluffy panda after learning that pandas eat bamboo all day long! In his picture, the panda is having a super bamboo feast in a magical forest. This special panda can talk, and he told Neale that bamboo tastes like the best ice cream in the world to pandas! The panda in Neale's drawing has extra big eyes to spot the tastiest bamboo shoots from far away. Neale imagines that if he could be a panda for a day, he would build a bamboo house and have bamboo pancakes for breakfast, bamboo sandwiches for lunch, and bamboo pizza for dinner!"
+          "title": "A Moment of Simple Joy",
+          "content": "Sometimes the most beautiful moments are the simplest ones. Here sits a gentle panda, completely absorbed in enjoying fresh bamboo stalks. Neale's careful pencil work shows every detail - the panda's round ears, the soft fur around its distinctive black patches, and the way it holds the bamboo with such delicate care. There's something wonderfully peaceful about watching someone (or some-panda) enjoy their favorite meal without any hurry or worry. The panda's expression is one of pure contentment, reminding us that happiness can be found in life's simple pleasures. In this quiet sketch, Neale captured not just what a panda looks like, but how it feels to be completely present in a perfect moment."
         },
         "zh": {
-          "title": "恩恩的熊猫朋友",
-          "content": "恩恩在了解到熊猫整天都在吃竹子后，画了这只毛茸茸的熊猫！在他的画中，熊猫正在魔法森林里享用一顿超级竹子盛宴。这只特别的熊猫会说话，它告诉恩恩，对熊猫来说，竹子尝起来像世界上最好的冰淇淋！恩恩画中的熊猫有特别大的眼睛，可以从远处发现最美味的竹笋。恩恩想象，如果他能当一天熊猫，他会建一座竹子房子，早餐吃竹子煎饼，午餐吃竹子三明治，晚餐吃竹子披萨！"
+          "title": "简单快乐的时刻",
+          "content": "有时候最美丽的时刻就是最简单的时刻。这里坐着一只温和的熊猫，完全专注于享受新鲜的竹茎。恩恩仔细的铅笔工作显示了每一个细节——熊猫的圆耳朵，独特黑色斑块周围的柔软毛发，以及它如此精心地握着竹子的方式。看着某人（或某只熊猫）毫不匆忙或担忧地享受他们最喜欢的食物，有一种奇妙的平静感。熊猫的表情是纯粹的满足，提醒我们可以在生活的简单乐趣中找到幸福。在这幅安静的素描中，恩恩不仅捕捉到了熊猫的样子，还捕捉到了完全沉浸在完美时刻中的感觉。"
         }
       },
       "characters": {
         "en": [
           "Neale",
-          "talking panda"
+          "gentle panda"
         ],
         "zh": [
           "恩恩",
-          "会说话的熊猫"
+          "温和的熊猫"
         ]
-      }
+      },
+      "artworkType": "animal_study",
+      "colorScheme": "black_and_white"
     },
     {
       "week": 8,
@@ -265,26 +275,28 @@
       },
       "story": {
         "en": {
-          "title": "Neale's Soaring Goose",
-          "content": "Neale drew this magnificent goose after watching a flock of geese fly over his house in a perfect V-shape! In his picture, this special goose is the leader of the flock, guiding all the other geese on an exciting journey south for the winter. Neale gave the goose extra-strong wings that can fly higher than any other bird, even above the clouds! The goose in Neale's drawing wears a tiny captain's hat and carries a map to make sure none of the other geese get lost. Neale thinks it would be amazing to ride on the back of this giant goose and see the whole world from way up high in the sky!"
+          "title": "Master of the Autumn Sky",
+          "content": "High above the earth, a Canada goose glides effortlessly through the crisp autumn air. Neale's pencil captured the bird in perfect flight - wings outstretched, neck extended, embodying the grace and power of wild migration. Every feather is carefully rendered, showing the intricate patterns that help this remarkable bird navigate thousands of miles. This isn't just any goose; this is a navigator, following ancient flyways passed down through generations. The sketch shows the determination in the goose's posture as it journeys toward warmer lands, carrying with it the wisdom of countless migrations. Watching geese fly overhead always fills Neale with wonder about the incredible journeys these birds make twice each year, guided only by instinct and the stars."
         },
         "zh": {
-          "title": "恩恩的翱翔的鹅",
-          "content": "恩恩在看到一群鹅以完美的V形飞过他的房子后，画了这只壮丽的鹅！在他的画中，这只特别的鹅是鹅群的领导者，引导所有其他的鹅进行一次令人兴奋的南飞冬季之旅。恩恩给这只鹅画了特别强壮的翅膀，可以飞得比任何其他鸟儿都高，甚至飞到云层之上！恩恩画中的鹅戴着一顶小小的船长帽，并携带着一张地图，确保没有其他鹅迷路。恩恩认为，骑在这只巨大的鹅背上，从高空中看整个世界，一定非常神奇！"
+          "title": "秋空的主人",
+          "content": "在地球高空，一只加拿大鹅在清爽的秋日空气中毫不费力地滑翔。恩恩的铅笔捕捉到了这只鸟完美的飞行姿态——翅膀展开，脖子伸长，体现了野生迁徙的优雅和力量。每根羽毛都被仔细描绘，显示了帮助这只非凡鸟类导航数千英里的复杂图案。这不仅仅是任何一只鹅；这是一个导航者，遵循着代代相传的古老飞行路线。素描显示了鹅在向温暖土地旅行时姿态中的决心，带着无数次迁徙的智慧。看着鹅群飞过头顶总是让恩恩对这些鸟类每年两次进行的不可思议的旅程充满惊奇，它们仅凭本能和星星的指引。"
         }
       },
       "characters": {
         "en": [
           "Neale",
-          "captain goose",
-          "flock of geese"
+          "Canada goose",
+          "migrating flocks"
         ],
         "zh": [
           "恩恩",
-          "船长鹅",
-          "鹅群"
+          "加拿大鹅",
+          "迁徙的鹅群"
         ]
-      }
+      },
+      "artworkType": "wildlife_study",
+      "colorScheme": "black_and_white"
     },
     {
       "week": 10,

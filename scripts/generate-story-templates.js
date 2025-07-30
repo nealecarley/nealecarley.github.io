@@ -29,6 +29,32 @@ function generateTitleFromFilename(filename) {
 function generateStoryTemplate(filename, week) {
   const title = generateTitleFromFilename(filename);
   
+  // Create varied story starters and themes
+  const storyVariations = [
+    {
+      starter: "In a quiet moment",
+      theme: "peaceful observation"
+    },
+    {
+      starter: "One sunny afternoon",
+      theme: "adventure discovery"
+    },
+    {
+      starter: "While exploring",
+      theme: "curious exploration"
+    },
+    {
+      starter: "During art time",
+      theme: "creative expression"
+    },
+    {
+      starter: "On a special day",
+      theme: "memorable experience"
+    }
+  ];
+  
+  const variation = storyVariations[week % storyVariations.length];
+  
   return {
     week,
     artwork: {
@@ -40,18 +66,20 @@ function generateStoryTemplate(filename, week) {
     },
     story: {
       en: {
-        title: `Tommy's ${title} Adventure`,
-        content: `[PLACEHOLDER: Add Tommy's story about this artwork]`
+        title: `${variation.starter}: ${title}`,
+        content: `[PLACEHOLDER: Create a ${variation.theme} story about this black and white pencil artwork. Focus on what's actually visible in the drawing without adding colors that aren't there.]`
       },
       zh: {
-        title: `汤米的${title}冒险`,
-        content: `[占位符：添加汤米关于这件艺术品的故事]`
+        title: `${variation.starter}: ${title} (中文)`,
+        content: `[占位符：创建一个关于这幅黑白铅笔艺术作品的${variation.theme}故事。专注于画中实际可见的内容，不要添加不存在的颜色。]`
       }
     },
     characters: {
-      en: ["Tommy"],
-      zh: ["汤米"]
-    }
+      en: ["Neale"],
+      zh: ["恩恩"]
+    },
+    artworkType: "pencil_drawing",
+    colorScheme: "black_and_white"
   };
 }
 

@@ -9,16 +9,18 @@
   },
   "story": {
     "en": {
-      "title": "Neale's Brave Lion Friend",
-      "content": "Neale drew a picture of a lion who lived under a magical tree. This lion wasn't scary at all - he was the friendliest lion in the whole jungle! The lion's favorite thing to do was to sit under his special tree and tell stories to all the animals who came to visit. Neale gave the lion a big fluffy mane that looked like sunshine, and a smile that could make anyone happy. The magical tree gave the lion special powers to protect the forest and make sure all the animals were safe and happy. Neale wishes he could visit the lion and listen to his amazing stories too!"
+      "title": "The Peaceful King of the Savanna",
+      "content": "In the shade of an ancient baobab tree, a majestic lion rests peacefully. Neale's pencil captured the quiet dignity of this king of beasts - not fierce or roaring, but calm and contemplative. The detailed shading shows the texture of the lion's magnificent mane and the weathered bark of the old tree that has provided shelter for countless generations. This isn't a story of hunting or danger, but of harmony between the mighty lion and his leafy companion. The tree's branches seem to embrace the lion protectively, while the lion's presence guards the tree from harm. Together, they represent the perfect balance of strength and gentleness that exists in nature's most peaceful moments."
     },
     "zh": {
-      "title": "恩恩的勇敢狮子朋友",
-      "content": "恩恩画了一幅住在魔法树下的狮子。这只狮子一点也不可怕——他是整个丛林中最友好的狮子！狮子最喜欢做的事情是坐在他特别的树下，给所有来访的动物讲故事。恩恩给狮子画了一个看起来像阳光一样的大蓬松鬃毛，和一个能让任何人开心的笑容。这棵魔法树给了狮子特殊的力量，保护森林并确保所有动物都安全快乐。恩恩希望他也能去拜访狮子，听听他讲的精彩故事！"
+      "title": "草原上的和平之王",
+      "content": "在古老猴面包树的阴影下，一只威严的狮子安静地休息着。恩恩的铅笔捕捉到了这位兽王安静的尊严——不是凶猛或咆哮，而是平静和沉思。细致的阴影显示了狮子壮丽鬃毛的质感和为无数代提供庇护的老树风化的树皮。这不是一个关于狩猎或危险的故事，而是关于威严的狮子与他的绿叶伙伴之间和谐相处的故事。树枝似乎保护性地拥抱着狮子，而狮子的存在也保护着树免受伤害。它们一起代表了自然最和平时刻中力量与温柔的完美平衡。"
     }
   },
   "characters": {
-    "en": ["Neale", "friendly lion", "magical tree"],
-    "zh": ["恩恩", "友好的狮子", "魔法树"]
-  }
+    "en": ["Neale", "majestic lion", "ancient baobab tree"],
+    "zh": ["恩恩", "威严的狮子", "古老的猴面包树"]
+  },
+  "artworkType": "nature_study",
+  "colorScheme": "black_and_white"
 }

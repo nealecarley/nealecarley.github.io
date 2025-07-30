@@ -311,7 +311,91 @@ class WeeklyArtShowcase {
   }
 }
 
+// Cover page navigation
+class CoverPageManager {
+  constructor() {
+    this.coverPage = document.getElementById('cover-page');
+    this.mainShowcase = document.getElementById('main-showcase');
+    this.enterButton = document.getElementById('enter-showcase');
+    this.backButton = document.getElementById('back-to-cover');
+    
+    this.setupEventListeners();
+  }
+  
+  setupEventListeners() {
+    if (this.enterButton) {
+      this.enterButton.addEventListener('click', () => {
+        this.showMainShowcase();
+      });
+    }
+    
+    if (this.backButton) {
+      this.backButton.addEventListener('click', () => {
+        this.showCoverPage();
+      });
+    }
+  }
+  
+  showMainShowcase() {
+    if (this.coverPage && this.mainShowcase) {
+      this.coverPage.style.display = 'none';
+      this.mainShowcase.style.display = 'block';
+      
+      // Update URL
+      const url = new URL(window.location);
+      url.searchParams.set('view', 'gallery');
+      window.history.pushState({}, '', url);
+    }
+  }
+  
+  showCoverPage() {
+    if (this.coverPage && this.mainShowcase) {
+      this.coverPage.style.display = 'block';
+      this.mainShowcase.style.display = 'none';
+      
+      // Update URL
+      const url = new URL(window.location);
+      url.searchParams.delete('view');
+      url.searchParams.delete('week');
+      window.history.pushState({}, '', url);
+    }
+  }
+  
+  // Check URL on load to determine which view to show
+  checkInitialView() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const view = urlParams.get('view');
+    
+    if (view === 'gallery') {
+      this.showMainShowcase();
+    } else {
+      this.showCoverPage();
+    }
+  }
+}
+
 // Initialize application when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-  new WeeklyArtShowcase();
+  // Initialize cover page manager
+  const coverManager = new CoverPageManager();
+  coverManager.checkInitialView();
+  
+  // Always initialize the showcase, but only show it when needed
+  let showcase = null;
+  
+  // Initialize showcase when entering gallery
+  const enterButton = document.getElementById('enter-showcase');
+  if (enterButton) {
+    enterButton.addEventListener('click', () => {
+      if (!showcase) {
+        showcase = new WeeklyArtShowcase();
+      }
+    });
+  }
+  
+  // If we're starting in gallery view, initialize immediately
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get('view') === 'gallery') {
+    showcase = new WeeklyArtShowcase();
+  }
 });

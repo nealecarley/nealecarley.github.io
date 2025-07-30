@@ -9,16 +9,18 @@
   },
   "story": {
     "en": {
-      "title": "Neale's Golden Gate Bridge Adventure",
-      "content": "Once upon a time, Neale visited San Francisco and saw the magnificent Golden Gate Bridge - the biggest, reddest bridge in the whole wide world! The famous Golden Gate Bridge looked like a giant's toy bridge that someone painted with the most beautiful International Red paint ever. Neale imagined that friendly dragons lived under the Golden Gate Bridge, and they helped all the cars drive safely across San Francisco Bay. The bridge towers were so tall that Neale thought they could touch the foggy San Francisco clouds, and maybe the clouds would give them a high-five!"
+      "title": "The Bridge That Touches the Sky",
+      "content": "Standing at the edge of San Francisco Bay, Neale gazed up at the towering Golden Gate Bridge. The massive structure stretched across the water like a gentle giant, its cables creating intricate patterns against the gray sky. In his sketch, Neale captured the bridge's graceful arches and the way fog danced around its towers. He imagined the bridge as a guardian watching over the bay, strong enough to carry thousands of cars but gentle enough not to disturb the seabirds nesting on its beams. The pencil lines in his drawing showed how the bridge seemed to disappear into the mist, as if it were reaching up to shake hands with the clouds themselves."
     },
     "zh": {
-      "title": "恩恩的金门大桥冒险",
-      "content": "从前，恩恩来到旧金山，看到了壮丽的金门大桥——全世界最大、最红的桥！著名的金门大桥看起来就像巨人的玩具桥，被人用最美丽的国际橙色油漆涂过。恩恩想象着友善的龙住在金门大桥下面，它们帮助所有的汽车安全地穿过旧金山湾。桥塔是如此之高，恩恩觉得它们可以触碰到旧金山多雾的云朵，也许云朵会和它们击掌问好！"
+      "title": "触碰天空的桥梁",
+      "content": "站在旧金山湾边，恩恩仰望着高耸的金门大桥。这座巨大的建筑像温和的巨人一样横跨水面，它的缆绳在灰色天空中形成复杂的图案。在他的素描中，恩恩捕捉到了桥梁优雅的拱形和雾气在桥塔周围舞动的样子。他想象这座桥是海湾的守护者，强大到足以承载数千辆汽车，但又温和到不会打扰在其横梁上筑巢的海鸟。他画中的铅笔线条显示了桥梁似乎消失在薄雾中的样子，仿佛它正伸手与云朵握手。"
     }
   },
   "characters": {
-    "en": ["friendly dragons", "giant", "Neale"],
-    "zh": ["友善的龙", "巨人", "恩恩"]
-  }
+    "en": ["Neale", "seabirds", "gentle giant"],
+    "zh": ["恩恩", "海鸟", "温和的巨人"]
+  },
+  "artworkType": "landscape_sketch",
+  "colorScheme": "black_and_white"
 }

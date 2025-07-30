@@ -1,0 +1,26 @@
+{
+  "week": 4,
+  "artwork": {
+    "filename": "boats.jpg",
+    "title": {
+      "en": "Motor Boats",
+      "zh": "摩托艇"
+    }
+  },
+  "story": {
+    "en": {
+      "title": "Racing Across the Water",
+      "content": "The harbor comes alive with the rumble of powerful engines as sleek motorboats prepare for their morning adventure. Neale's sketch captures the dynamic energy of these vessels cutting through the water, their hulls designed for speed and their wake trailing behind like liquid ribbons. Each boat tells its own story - some built for fishing expeditions, others for weekend family outings, and a few clearly meant for the thrill of racing across open water. The careful pencil strokes show how sunlight would dance on the water's surface and reflect off the boats' polished surfaces. There's something exciting about boats that can go fast - they represent freedom, adventure, and the endless possibilities that wait beyond the horizon."
+    },
+    "zh": {
+      "title": "在水面上飞驰",
+      "content": "随着强大引擎的轰鸣声，港口变得生机勃勃，流线型摩托艇准备开始他们的晨间冒险。恩恩的素描捕捉到了这些船只划破水面的动态能量，它们的船体为速度而设计，尾流像液体丝带一样在后面飘荡。每艘船都讲述着自己的故事——有些是为钓鱼探险而建造的，有些是为周末家庭出游，还有一些显然是为了在开阔水域上飞驰的刺激而设计的。仔细的铅笔笔触显示了阳光如何在水面上跳舞，并从船只抛光的表面反射出来。快速行驶的船只有一种令人兴奋的东西——它们代表着自由、冒险，以及在地平线之外等待的无限可能。"
+    }
+  },
+  "characters": {
+    "en": ["Neale", "boat captains", "adventurers"],
+    "zh": ["恩恩", "船长们", "冒险家们"]
+  },
+  "artworkType": "marine_sketch",
+  "colorScheme": "black_and_white"
+}

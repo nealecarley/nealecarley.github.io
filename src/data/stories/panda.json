@@ -9,16 +9,18 @@
   },
   "story": {
     "en": {
-      "title": "Neale's Panda Friend",
-      "content": "Neale drew this fluffy panda after learning that pandas eat bamboo all day long! In his picture, the panda is having a super bamboo feast in a magical forest. This special panda can talk, and he told Neale that bamboo tastes like the best ice cream in the world to pandas! The panda in Neale's drawing has extra big eyes to spot the tastiest bamboo shoots from far away. Neale imagines that if he could be a panda for a day, he would build a bamboo house and have bamboo pancakes for breakfast, bamboo sandwiches for lunch, and bamboo pizza for dinner!"
+      "title": "A Moment of Simple Joy",
+      "content": "Sometimes the most beautiful moments are the simplest ones. Here sits a gentle panda, completely absorbed in enjoying fresh bamboo stalks. Neale's careful pencil work shows every detail - the panda's round ears, the soft fur around its distinctive black patches, and the way it holds the bamboo with such delicate care. There's something wonderfully peaceful about watching someone (or some-panda) enjoy their favorite meal without any hurry or worry. The panda's expression is one of pure contentment, reminding us that happiness can be found in life's simple pleasures. In this quiet sketch, Neale captured not just what a panda looks like, but how it feels to be completely present in a perfect moment."
     },
     "zh": {
-      "title": "恩恩的熊猫朋友",
-      "content": "恩恩在了解到熊猫整天都在吃竹子后，画了这只毛茸茸的熊猫！在他的画中，熊猫正在魔法森林里享用一顿超级竹子盛宴。这只特别的熊猫会说话，它告诉恩恩，对熊猫来说，竹子尝起来像世界上最好的冰淇淋！恩恩画中的熊猫有特别大的眼睛，可以从远处发现最美味的竹笋。恩恩想象，如果他能当一天熊猫，他会建一座竹子房子，早餐吃竹子煎饼，午餐吃竹子三明治，晚餐吃竹子披萨！"
+      "title": "简单快乐的时刻",
+      "content": "有时候最美丽的时刻就是最简单的时刻。这里坐着一只温和的熊猫，完全专注于享受新鲜的竹茎。恩恩仔细的铅笔工作显示了每一个细节——熊猫的圆耳朵，独特黑色斑块周围的柔软毛发，以及它如此精心地握着竹子的方式。看着某人（或某只熊猫）毫不匆忙或担忧地享受他们最喜欢的食物，有一种奇妙的平静感。熊猫的表情是纯粹的满足，提醒我们可以在生活的简单乐趣中找到幸福。在这幅安静的素描中，恩恩不仅捕捉到了熊猫的样子，还捕捉到了完全沉浸在完美时刻中的感觉。"
     }
   },
   "characters": {
-    "en": ["Neale", "talking panda"],
-    "zh": ["恩恩", "会说话的熊猫"]
-  }
+    "en": ["Neale", "gentle panda"],
+    "zh": ["恩恩", "温和的熊猫"]
+  },
+  "artworkType": "animal_study",
+  "colorScheme": "black_and_white"
 }
