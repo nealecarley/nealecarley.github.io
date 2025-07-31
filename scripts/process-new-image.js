@@ -9,6 +9,7 @@ const path = require('path');
 const https = require('https');
 const http = require('http');
 const { URL } = require('url');
+const { downloadFromGoogleDrive, extractGoogleDriveFileId } = require('./download-google-drive');
 
 // Get command line arguments
 const imageUrl = process.argv[2];
@@ -19,14 +20,24 @@ if (!imageUrl || !imageName) {
     process.exit(1);
 }
 
-function convertCloudUrl(url) {
+function convertCloudUrl(url, attempt = 1) {
     // Convert various cloud storage URLs to direct download URLs
     
-    // Google Drive
+    // Google Drive - try different approaches
     const googleDriveMatch = url.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);
     if (googleDriveMatch) {
         const fileId = googleDriveMatch[1];
-        return `https://drive.google.com/uc?export=download&id=${fileId}`;
+        
+        if (attempt === 1) {
+            // First attempt: standard download URL
+            return `https://drive.google.com/uc?export=download&id=${fileId}`;
+        } else if (attempt === 2) {
+            // Second attempt: with confirmation bypass
+            return `https://drive.google.com/uc?export=download&id=${fileId}&confirm=t`;
+        } else {
+            // Third attempt: direct file access
+            return `https://drive.google.com/file/d/${fileId}/view?usp=drivesdk`;
+        }
     }
     
     // Dropbox
@@ -36,7 +47,6 @@ function convertCloudUrl(url) {
     
     // OneDrive
     if (url.includes('1drv.ms') || url.includes('onedrive.live.com')) {
-        // OneDrive requires different handling, but this is a basic conversion
         if (url.includes('?')) {
             return url + '&download=1';
         } else {
@@ -47,7 +57,12 @@ function convertCloudUrl(url) {
     return url;
 }
 
-async function downloadImage(url, filename) {
+async function downloadImage(url, filename, redirectCount = 0) {
+    // Prevent infinite redirects
+    if (redirectCount > 5) {
+        throw new Error('Too many redirects');
+    }
+    
     return new Promise((resolve, reject) => {
         // Convert cloud storage URLs to direct download format
         const downloadUrl = convertCloudUrl(url);
@@ -59,17 +74,17 @@ async function downloadImage(url, filename) {
         const file = fs.createWriteStream(filename);
         
         const request = client.get(downloadUrl, (response) => {
-            // Handle redirects (Google Drive often redirects)
-            if (response.statusCode === 301 || response.statusCode === 302) {
+            // Handle redirects (Google Drive uses 301, 302, 303, 307, 308)
+            if ([301, 302, 303, 307, 308].includes(response.statusCode)) {
                 const redirectUrl = response.headers.location;
-                console.log(`Following redirect to: ${redirectUrl}`);
+                console.log(`Following redirect (${response.statusCode}) to: ${redirectUrl}`);
                 
                 // Close current file stream
                 file.close();
                 fs.unlink(filename).catch(() => {}); // Clean up partial file
                 
                 // Retry with redirect URL
-                downloadImage(redirectUrl, filename).then(resolve).catch(reject);
+                downloadImage(redirectUrl, filename, redirectCount + 1).then(resolve).catch(reject);
                 return;
             }
             
@@ -141,8 +156,16 @@ async function processNewImage() {
         const fileName = imageName.endsWith(extension) ? imageName : `${imageName}${extension}`;
         const filePath = path.join('images/2025', fileName);
         
-        // Download the image
-        await downloadImage(imageUrl, filePath);
+        // Check if it's a Google Drive URL and use specialized downloader
+        const googleDriveFileId = extractGoogleDriveFileId(imageUrl);
+        if (googleDriveFileId) {
+            console.log(`Detected Google Drive URL, using specialized downloader...`);
+            await downloadFromGoogleDrive(googleDriveFileId, filePath);
+        } else {
+            // Use regular download for other URLs
+            await downloadImage(imageUrl, filePath);
+        }
+        
         console.log(`✓ Downloaded image to: ${filePath}`);
         
         // Update configuration
