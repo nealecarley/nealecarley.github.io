@@ -19,16 +19,64 @@ if (!imageUrl || !imageName) {
     process.exit(1);
 }
 
+function convertCloudUrl(url) {
+    // Convert various cloud storage URLs to direct download URLs
+    
+    // Google Drive
+    const googleDriveMatch = url.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);
+    if (googleDriveMatch) {
+        const fileId = googleDriveMatch[1];
+        return `https://drive.google.com/uc?export=download&id=${fileId}`;
+    }
+    
+    // Dropbox
+    if (url.includes('dropbox.com') && url.includes('?dl=0')) {
+        return url.replace('?dl=0', '?dl=1');
+    }
+    
+    // OneDrive
+    if (url.includes('1drv.ms') || url.includes('onedrive.live.com')) {
+        // OneDrive requires different handling, but this is a basic conversion
+        if (url.includes('?')) {
+            return url + '&download=1';
+        } else {
+            return url + '?download=1';
+        }
+    }
+    
+    return url;
+}
+
 async function downloadImage(url, filename) {
     return new Promise((resolve, reject) => {
-        const parsedUrl = new URL(url);
+        // Convert cloud storage URLs to direct download format
+        const downloadUrl = convertCloudUrl(url);
+        console.log(`Converted URL: ${downloadUrl}`);
+        
+        const parsedUrl = new URL(downloadUrl);
         const client = parsedUrl.protocol === 'https:' ? https : http;
         
         const file = fs.createWriteStream(filename);
         
-        client.get(url, (response) => {
+        const request = client.get(downloadUrl, (response) => {
+            // Handle redirects (Google Drive often redirects)
+            if (response.statusCode === 301 || response.statusCode === 302) {
+                const redirectUrl = response.headers.location;
+                console.log(`Following redirect to: ${redirectUrl}`);
+                
+                // Close current file stream
+                file.close();
+                fs.unlink(filename).catch(() => {}); // Clean up partial file
+                
+                // Retry with redirect URL
+                downloadImage(redirectUrl, filename).then(resolve).catch(reject);
+                return;
+            }
+            
             if (response.statusCode !== 200) {
-                reject(new Error(`Failed to download image: ${response.statusCode}`));
+                file.close();
+                fs.unlink(filename).catch(() => {});
+                reject(new Error(`Failed to download image: ${response.statusCode} - ${response.statusMessage}`));
                 return;
             }
             
@@ -36,15 +84,26 @@ async function downloadImage(url, filename) {
             
             file.on('finish', () => {
                 file.close();
+                console.log(`✓ Successfully downloaded: ${filename}`);
                 resolve();
             });
             
             file.on('error', (err) => {
-                fs.unlink(filename);
+                fs.unlink(filename).catch(() => {});
                 reject(err);
             });
         }).on('error', (err) => {
+            file.close();
+            fs.unlink(filename).catch(() => {});
             reject(err);
+        });
+        
+        // Set timeout for the request
+        request.setTimeout(30000, () => {
+            request.destroy();
+            file.close();
+            fs.unlink(filename).catch(() => {});
+            reject(new Error('Download timeout'));
         });
     });
 }
