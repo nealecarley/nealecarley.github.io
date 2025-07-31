@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Neale's New Artwork 🎨</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .upload-container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        
+        .title {
+            font-size: 2rem;
+            color: #FF6B6B;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            color: #45B7D1;
+            margin-bottom: 30px;
+        }
+        
+        .upload-area {
+            border: 3px dashed #45B7D1;
+            border-radius: 15px;
+            padding: 40px 20px;
+            margin: 20px 0;
+            background: #F0F8FF;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .upload-area:hover {
+            border-color: #FF6B6B;
+            background: #FFF0F0;
+        }
+        
+        .upload-area.dragover {
+            border-color: #6BCF7F;
+            background: #F0FFF0;
+        }
+        
+        .upload-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        
+        .upload-text {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .file-input {
+            display: none;
+        }
+        
+        .form-group {
+            margin: 20px 0;
+            text-align: left;
+        }
+        
+        .form-label {
+            display: block;
+            font-size: 1.1rem;
+            color: #333;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        
+        .form-input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #45B7D1;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-family: 'Comic Sans MS', cursive;
+            box-sizing: border-box;
+        }
+        
+        .form-input:focus {
+            outline: none;
+            border-color: #FF6B6B;
+            box-shadow: 0 0 10px rgba(255, 107, 107, 0.3);
+        }
+        
+        .upload-btn {
+            background: linear-gradient(135deg, #FF6B6B, #45B7D1);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 25px;
+            cursor: pointer;
+            font-family: 'Comic Sans MS', cursive;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin-top: 20px;
+        }
+        
+        .upload-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .upload-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .preview-area {
+            margin: 20px 0;
+            display: none;
+        }
+        
+        .preview-image {
+            max-width: 100%;
+            max-height: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .status-message {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 10px;
+            font-weight: bold;
+            display: none;
+        }
+        
+        .status-success {
+            background: #6BCF7F;
+            color: white;
+        }
+        
+        .status-error {
+            background: #FF6B6B;
+            color: white;
+        }
+        
+        .status-loading {
+            background: #FFD93D;
+            color: #333;
+        }
+        
+        .instructions {
+            background: #F0F8FF;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+            border-left: 5px solid #45B7D1;
+            text-align: left;
+        }
+        
+        .instructions h3 {
+            color: #45B7D1;
+            margin-top: 0;
+        }
+        
+        .instructions ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        
+        .instructions li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="upload-container">
+        <h1 class="title">🎨 Upload New Artwork</h1>
+        <p class="subtitle">Add Neale's latest masterpiece to the gallery!</p>
+        
+        <div class="instructions">
+            <h3>📱 How to Upload:</h3>
+            <ul>
+                <li>Take a photo of Neale's artwork with your phone</li>
+                <li>Click the upload area below or drag & drop the image</li>
+                <li>Give the artwork a descriptive name</li>
+                <li>Click "Add to Gallery" - it will automatically process!</li>
+            </ul>
+        </div>
+        
+        <form id="uploadForm">
+            <div class="upload-area" id="uploadArea">
+                <div class="upload-icon">📸</div>
+                <div class="upload-text">Click here or drag & drop Neale's artwork</div>
+                <input type="file" id="fileInput" class="file-input" accept="image/*" capture="environment">
+            </div>
+            
+            <div class="preview-area" id="previewArea">
+                <img id="previewImage" class="preview-image" alt="Preview">
+            </div>
+            
+            <div class="form-group">
+                <label for="artworkName" class="form-label">🏷️ Artwork Name:</label>
+                <input type="text" id="artworkName" class="form-input" placeholder="e.g., rainbow_castle, happy_dog, space_rocket" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="description" class="form-label">📝 What's in this artwork? (optional):</label>
+                <input type="text" id="description" class="form-input" placeholder="e.g., A colorful castle with a rainbow, A happy dog playing in the park">
+            </div>
+            
+            <button type="submit" class="upload-btn" id="uploadBtn">
+                Add to Gallery! 🚀
+            </button>
+        </form>
+        
+        <div class="status-message" id="statusMessage"></div>
+    </div>
+
+    <script>
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const previewArea = document.getElementById('previewArea');
+        const previewImage = document.getElementById('previewImage');
+        const uploadForm = document.getElementById('uploadForm');
+        const uploadBtn = document.getElementById('uploadBtn');
+        const statusMessage = document.getElementById('statusMessage');
+        
+        let selectedFile = null;
+        
+        // Click to upload
+        uploadArea.addEventListener('click', () => {
+            fileInput.click();
+        });
+        
+        // Drag and drop
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+        
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+        
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                handleFileSelect(files[0]);
+            }
+        });
+        
+        // File input change
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) {
+                handleFileSelect(e.target.files[0]);
+            }
+        });
+        
+        function handleFileSelect(file) {
+            if (!file.type.startsWith('image/')) {
+                showStatus('Please select an image file!', 'error');
+                return;
+            }
+            
+            selectedFile = file;
+            
+            // Show preview
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                previewImage.src = e.target.result;
+                previewArea.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+            
+            // Auto-generate name from filename
+            const nameInput = document.getElementById('artworkName');
+            if (!nameInput.value) {
+                const baseName = file.name.replace(/\.[^/.]+$/, '').replace(/[^a-zA-Z0-9]/g, '_').toLowerCase();
+                nameInput.value = baseName;
+            }
+        }
+        
+        // Form submission
+        uploadForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            if (!selectedFile) {
+                showStatus('Please select an image first!', 'error');
+                return;
+            }
+            
+            const artworkName = document.getElementById('artworkName').value.trim();
+            if (!artworkName) {
+                showStatus('Please enter an artwork name!', 'error');
+                return;
+            }
+            
+            uploadBtn.disabled = true;
+            showStatus('Uploading artwork to gallery...', 'loading');
+            
+            try {
+                // In a real implementation, you would:
+                // 1. Upload the image to cloud storage (AWS S3, Cloudinary, etc.)
+                // 2. Get the public URL
+                // 3. Call the webhook to trigger processing
+                
+                // For demo purposes, we'll simulate the process
+                await simulateUpload(selectedFile, artworkName);
+                
+                showStatus('🎉 Artwork added to gallery! It will appear shortly.', 'success');
+                uploadForm.reset();
+                previewArea.style.display = 'none';
+                selectedFile = null;
+                
+            } catch (error) {
+                console.error('Upload error:', error);
+                showStatus('Upload failed. Please try again.', 'error');
+            } finally {
+                uploadBtn.disabled = false;
+            }
+        });
+        
+        function showStatus(message, type) {
+            statusMessage.textContent = message;
+            statusMessage.className = `status-message status-${type}`;
+            statusMessage.style.display = 'block';
+            
+            if (type === 'success') {
+                setTimeout(() => {
+                    statusMessage.style.display = 'none';
+                }, 5000);
+            }
+        }
+        
+        async function simulateUpload(file, name) {
+            // Simulate upload delay
+            await new Promise(resolve => setTimeout(resolve, 2000));
+            
+            // In production, replace this with actual cloud upload and webhook call
+            console.log('Would upload:', { file: file.name, name });
+            
+            // Example of what the real implementation would do:
+            /*
+            // 1. Upload to cloud storage
+            const formData = new FormData();
+            formData.append('image', file);
+            const uploadResponse = await fetch('/api/upload-image', {
+                method: 'POST',
+                body: formData
+            });
+            const { imageUrl } = await uploadResponse.json();
+            
+            // 2. Trigger processing webhook
+            await fetch('/api/process-artwork', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    image_url: imageUrl,
+                    image_name: name,
+                    description: document.getElementById('description').value
+                })
+            });
+            */
+        }
+    </script>
+</body>
+</html>

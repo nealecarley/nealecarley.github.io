@@ -1,0 +1,59 @@
+name: Process New Artwork
+
+on:
+  repository_dispatch:
+    types: [new-artwork]
+  workflow_dispatch:
+    inputs:
+      image_url:
+        description: 'URL of the uploaded image'
+        required: true
+        type: string
+      image_name:
+        description: 'Name for the image file'
+        required: true
+        type: string
+
+jobs:
+  process-artwork:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm install
+    
+    - name: Download and process image
+      env:
+        IMAGE_URL: ${{ github.event.inputs.image_url || github.event.client_payload.image_url }}
+        IMAGE_NAME: ${{ github.event.inputs.image_name || github.event.client_payload.image_name }}
+      run: |
+        # Create the image processing script
+        node scripts/process-new-image.js "$IMAGE_URL" "$IMAGE_NAME"
+    
+    - name: Generate thumbnails
+      run: npm run generate-thumbnails
+    
+    - name: Generate story template
+      run: npm run generate-stories
+    
+    - name: Build stories
+      run: npm run build-stories
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Add new artwork: ${{ github.event.inputs.image_name || github.event.client_payload.image_name }}" || exit 0
+        git push
