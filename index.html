@@ -7,250 +7,13 @@
     <title>Neale's Weekly Art Showcase - A Young Artist's Journey</title>
     <meta name="description"
         content="Join Neale on a creative journey through weekly artwork and imaginative stories. Discover the world through a young artist's eyes with bilingual tales that bring each drawing to life.">
-    <link rel="stylesheet" href="src/css/main.css?v=2">
+    <link rel="stylesheet" href="src/css/main.css?v=4">
     <style>
-        /* Complete inline styles to override everything */
+        /* Minimal inline overrides — all main styles in main.css */
         body {
             margin: 0;
             padding: 0;
             font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif;
-        }
-
-        .cover-page {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
-            min-height: 100vh !important;
-            display: flex !important;
-            align-items: center !important;
-            justify-content: center !important;
-            padding: 2rem !important;
-            position: relative !important;
-        }
-
-        .cover-content {
-            max-width: 1000px !important;
-            text-align: center !important;
-            color: white !important;
-        }
-
-        .cover-title {
-            font-size: 3.5rem !important;
-            margin-bottom: 1rem !important;
-            color: white !important;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
-        }
-
-        .title-main {
-            display: block !important;
-            font-family: 'Fredoka One', cursive !important;
-            font-size: 4rem !important;
-            background: linear-gradient(45deg, #FFD93D, #FF6B6B) !important;
-            -webkit-background-clip: text !important;
-            -webkit-text-fill-color: transparent !important;
-            background-clip: text !important;
-        }
-
-        .title-sub {
-            display: block !important;
-            font-size: 2rem !important;
-            color: rgba(255, 255, 255, 0.9) !important;
-            margin-top: 0.5rem !important;
-        }
-
-        .cover-subtitle {
-            font-size: 1.5rem !important;
-            color: rgba(255, 255, 255, 0.8) !important;
-            margin-bottom: 2rem !important;
-            font-weight: 600 !important;
-        }
-
-        .bio-card {
-            background: rgba(255, 255, 255, 0.95) !important;
-            backdrop-filter: blur(10px) !important;
-            border-radius: 20px !important;
-            padding: 2rem !important;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2) !important;
-            margin: 1.5rem 0 !important;
-            text-align: left !important;
-            border: 1px solid rgba(255, 255, 255, 0.2) !important;
-        }
-
-        .artist-portrait {
-            text-align: center !important;
-            margin-bottom: 1.5rem !important;
-        }
-
-        .portrait-image {
-            width: 150px !important;
-            height: 150px !important;
-            border-radius: 50% !important;
-            object-fit: cover !important;
-            border: 4px solid #FF6B6B !important;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
-            transition: transform 0.3s ease !important;
-        }
-
-        .portrait-image:hover {
-            transform: scale(1.1) rotate(5deg) !important;
-        }
-
-        .bio-title {
-            font-size: 2.2rem !important;
-            color: #FF6B6B !important;
-            text-align: center !important;
-            margin-bottom: 1.5rem !important;
-            font-family: 'Fredoka One', cursive !important;
-        }
-
-        .bio-highlights {
-            display: flex !important;
-            flex-wrap: wrap !important;
-            justify-content: center !important;
-            gap: 1rem !important;
-            margin-top: 1.5rem !important;
-            padding-top: 1.5rem !important;
-            border-top: 2px solid rgba(255, 107, 107, 0.2) !important;
-        }
-
-        .highlight-item {
-            display: flex !important;
-            flex-direction: column !important;
-            align-items: center !important;
-            gap: 0.25rem !important;
-            padding: 1rem !important;
-            border-radius: 15px !important;
-            color: white !important;
-            min-width: 120px !important;
-            text-align: center !important;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
-            transition: all 0.3s ease !important;
-            cursor: pointer !important;
-        }
-
-        .highlight-item:hover {
-            transform: translateY(-5px) scale(1.05) !important;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3) !important;
-        }
-
-        .highlight-item:nth-child(1) {
-            background: linear-gradient(135deg, #FF6B6B, #FF8E8E) !important;
-        }
-
-        .highlight-item:nth-child(2) {
-            background: linear-gradient(135deg, #4ECDC4, #45B7D1) !important;
-        }
-
-        .highlight-item:nth-child(3) {
-            background: linear-gradient(135deg, #FFD93D, #FFA726) !important;
-        }
-
-        .highlight-item:nth-child(4) {
-            background: linear-gradient(135deg, #6BCF7F, #4CAF50) !important;
-        }
-
-        .highlight-icon {
-            font-size: 2rem !important;
-            margin-bottom: 0.25rem !important;
-        }
-
-        .highlight-text {
-            font-weight: 600 !important;
-            font-size: 0.9rem !important;
-            text-align: center !important;
-            line-height: 1.2 !important;
-        }
-
-        .cover-description {
-            font-size: 1.1rem !important;
-            line-height: 1.6 !important;
-            margin: 1.5rem 0 !important;
-            color: rgba(255, 255, 255, 0.9) !important;
-            background: rgba(255, 255, 255, 0.1) !important;
-            padding: 1rem !important;
-            border-radius: 10px !important;
-            backdrop-filter: blur(5px) !important;
-        }
-
-        .feature-card {
-            background: rgba(255, 255, 255, 0.9) !important;
-            backdrop-filter: blur(10px) !important;
-            border-radius: 15px !important;
-            padding: 1.5rem !important;
-            text-align: center !important;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
-            transition: all 0.3s ease !important;
-            border: 1px solid rgba(255, 255, 255, 0.2) !important;
-            color: #333333 !important;
-        }
-
-        .feature-card h3 {
-            color: #45B7D1 !important;
-            margin-bottom: 0.5rem !important;
-            font-size: 1.3rem !important;
-        }
-
-        .feature-card p {
-            color: #333333 !important;
-            font-size: 1rem !important;
-            line-height: 1.5 !important;
-        }
-
-        .feature-card:hover {
-            transform: translateY(-8px) !important;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25) !important;
-        }
-
-        .cover-features {
-            display: grid !important;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
-            gap: 1.5rem !important;
-            margin: 2rem 0 !important;
-        }
-
-        .enter-button {
-            background: linear-gradient(135deg, #FF6B6B, #45B7D1) !important;
-            color: white !important;
-            border: none !important;
-            border-radius: 50px !important;
-            padding: 1rem 2rem !important;
-            font-size: 1.3rem !important;
-            font-weight: 600 !important;
-            cursor: pointer !important;
-            transition: all 0.3s ease !important;
-            display: inline-flex !important;
-            align-items: center !important;
-            gap: 0.5rem !important;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2) !important;
-        }
-
-        .enter-button:hover {
-            transform: translateY(-3px) !important;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3) !important;
-        }
-
-        .enter-arrow {
-            font-size: 1.5rem !important;
-            transition: transform 0.3s ease !important;
-        }
-
-        .enter-button:hover .enter-arrow {
-            transform: translateX(8px) !important;
-        }
-
-        /* Debug styles */
-        #enter-showcase {
-            background: linear-gradient(135deg, #FF6B6B, #45B7D1) !important;
-            color: white !important;
-            border: none !important;
-            border-radius: 50px !important;
-            padding: 1rem 2rem !important;
-            font-size: 1.3rem !important;
-            font-weight: 600 !important;
-            cursor: pointer !important;
-            transition: all 0.3s ease !important;
-            display: inline-flex !important;
-            align-items: center !important;
-            gap: 0.5rem !important;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2) !important;
         }
 
         /* Hide the main showcase initially */
@@ -258,36 +21,16 @@
             display: none !important;
         }
 
-        /* Show only when active */
-        #main-showcase.active {
-            display: block !important;
-        }
-
-        /* Force gallery to be visible when active and positioned at top */
-        #main-showcase.active {
-            display: block !important;
-            visibility: visible !important;
-            opacity: 1 !important;
-            position: fixed !important;
-            top: 0 !important;
-            left: 0 !important;
-            width: 100% !important;
-            height: 100vh !important;
-            z-index: 1000 !important;
-            background: white !important;
-            overflow-y: auto !important;
-        }
-        
         @media (max-width: 768px) {
             .bio-highlights {
                 flex-direction: column !important;
                 align-items: center !important;
             }
-
             .highlight-item {
                 min-width: 200px !important;
             }
         }
+
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -299,6 +42,16 @@
 <body>
     <!-- Cover Page -->
     <div id="cover-page" class="cover-page">
+        <!-- Floating Decorative Shapes -->
+        <div class="floating-shape floating-shape--star" style="top:5%;left:5%;width:20px;height:20px;background:rgba(255,255,255,0.15);border-radius:50%;"></div>
+        <div class="floating-shape floating-shape--circle" style="top:12%;right:8%;width:30px;height:30px;background:rgba(255,217,61,0.15);border-radius:50%;"></div>
+        <div class="floating-shape floating-shape--sparkle" style="top:25%;left:3%;width:12px;height:12px;background:rgba(255,255,255,0.2);border-radius:2px;transform:rotate(45deg);"></div>
+        <div class="floating-shape floating-shape--star" style="top:40%;right:4%;width:16px;height:16px;background:rgba(78,205,196,0.15);border-radius:50%;"></div>
+        <div class="floating-shape floating-shape--circle" style="top:60%;left:6%;width:24px;height:24px;background:rgba(255,107,107,0.12);border-radius:50%;"></div>
+        <div class="floating-shape floating-shape--sparkle" style="top:75%;right:6%;width:10px;height:10px;background:rgba(255,255,255,0.15);border-radius:2px;transform:rotate(45deg);"></div>
+        <div class="floating-shape floating-shape--star" style="bottom:8%;left:8%;width:18px;height:18px;background:rgba(107,207,127,0.12);border-radius:50%;"></div>
+        <div class="floating-shape floating-shape--circle" style="bottom:15%;right:10%;width:22px;height:22px;background:rgba(255,217,61,0.12);border-radius:50%;"></div>
+
         <div class="cover-content">
             <div class="cover-hero">
                 <h1 class="cover-title">
@@ -307,7 +60,7 @@
                 </h1>
                 <p class="cover-subtitle">A 5-Year-Old Artist's Creative Journey</p>
 
-                <!-- Artist Bio Section -->
+                <!-- Visual Bio — compressed, emoji-first -->
                 <div class="artist-bio">
                     <div class="bio-card">
                         <div class="artist-portrait">
@@ -318,37 +71,15 @@
                                 <p class="portrait-text">Neale<br><small>5-Year-Old Artist</small></p>
                             </div>
                         </div>
-                        <h2 class="bio-title">Meet the Artist</h2>
-                        <div class="bio-content">
-                            <p class="bio-intro">
-                                Hi! I'm Neale, and I'm 5 years old! I love creating art with my pencils, crayons, and
-                                imagination.
-                                My favorite things to draw are all kinds of transportation - boats that sail across the
-                                ocean,
-                                cars that zoom down the street, airplanes that fly high in the sky, and even watermelon
-                                boats that you can eat!
-                            </p>
-                            <p class="bio-description">
-                                Every week, I create a new piece of art and imagine wonderful stories about what I've
-                                drawn.
-                                Sometimes my drawings are in black and white with just my pencil, and sometimes they're
-                                full of bright, happy colors!
-                            </p>
-                            <p class="bio-invitation">
-                                I hope you enjoy looking at my artwork and reading the stories I imagine about each
-                                picture.
-                                Art is like magic - it can take you anywhere your imagination wants to go!
-                            </p>
-                        </div>
-
+                        <h2 class="bio-title">Meet Neale ✨</h2>
                         <div class="bio-highlights">
                             <div class="highlight-item">
                                 <span class="highlight-icon">🎨</span>
-                                <span class="highlight-text">Loves creating art</span>
+                                <span class="highlight-text">Loves art</span>
                             </div>
                             <div class="highlight-item">
                                 <span class="highlight-icon">🚗</span>
-                                <span class="highlight-text">Fascinated by transportation</span>
+                                <span class="highlight-text">Transportation fan</span>
                             </div>
                             <div class="highlight-item">
                                 <span class="highlight-icon">✨</span>
@@ -356,40 +87,70 @@
                             </div>
                             <div class="highlight-item">
                                 <span class="highlight-icon">📚</span>
-                                <span class="highlight-text">Storyteller at heart</span>
+                                <span class="highlight-text">Storyteller</span>
                             </div>
                         </div>
+                        <p class="bio-intro" style="margin:0.75rem 0 0;text-align:center;font-size:0.95rem;opacity:0.8;color:inherit;">
+                            Hi! I'm 5 years old and I love drawing boats, cars, airplanes, and anything I can imagine!
+                        </p>
                     </div>
                 </div>
 
-                <p class="cover-description zh-text">
-                    欢迎来到一个神奇的世界，铅笔与纸张相遇，想象力变为现实！
-                    加入5岁的恩恩，我们将探索11周的艺术作品，每一幅都伴随着精彩的故事，
-                    捕捉年轻艺术家视角的奇妙和创造力。恩恩最喜欢画各种交通工具和充满想象力的创作！
-                </p>
+                <!-- Thumbnail Grid — artwork previews right on the cover -->
+                <div class="cover-thumbnail-grid" id="cover-thumbnail-grid">
+                    <!-- Populated by JS -->
+                </div>
+
+                <!-- Emoji Icon Strip — visual, scan-friendly -->
+                <div class="cover-icon-strip">
+                    <div class="cover-icon-item">
+                        <span class="icon">🖍️</span>
+                        <span>Pencil &amp; Crayon</span>
+                    </div>
+                    <div class="cover-icon-item">
+                        <span class="icon">🌈</span>
+                        <span>Bright Colors</span>
+                    </div>
+                    <div class="cover-icon-item">
+                        <span class="icon">🌊</span>
+                        <span>Boats &amp; Ocean</span>
+                    </div>
+                    <div class="cover-icon-item">
+                        <span class="icon">🚗</span>
+                        <span>Cars &amp; Speed</span>
+                    </div>
+                    <div class="cover-icon-item">
+                        <span class="icon">✈️</span>
+                        <span>Airplanes</span>
+                    </div>
+                    <div class="cover-icon-item">
+                        <span class="icon">📖</span>
+                        <span>Bilingual 中文</span>
+                    </div>
+                </div>
             </div>
 
             <div class="cover-features">
                 <div class="feature-card">
                     <div class="feature-icon">🎨</div>
                     <h3>Weekly Artwork</h3>
-                    <p>Discover new drawings every week, from pencil sketches to colorful illustrations</p>
+                    <p>New drawings every week — from pencil sketches to colorful illustrations</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">📚</div>
                     <h3>Imaginative Stories</h3>
-                    <p>Each artwork comes with a unique story that brings the drawing to life</p>
+                    <p>Each drawing comes with a unique story that brings it to life</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">🌍</div>
-                    <h3>Bilingual Experience</h3>
-                    <p>Enjoy stories in both English and Chinese (中文)</p>
+                    <h3>Bilingual</h3>
+                    <p>Enjoy stories in English and Chinese (中文)</p>
                 </div>
             </div>
 
             <div class="cover-actions">
                 <button id="enter-showcase" class="enter-button" onclick="showGallery()">
-                    <span>Enter the Showcase</span>
+                    <span>🌟 Enter the Showcase</span>
                     <span class="enter-arrow">→</span>
                 </button>
                 <p class="cover-note">Start your journey through Neale's artistic world</p>
@@ -410,9 +171,9 @@
             <div class="container">
                 <!-- Week Navigation -->
                 <div class="week-navigation">
-                    <button id="prev-week" class="nav-button">← Previous</button>
+                    <button id="prev-week" class="nav-button" aria-label="Previous artwork">⬅️</button>
                     <div id="week-indicator" class="week-indicator">Week 1 of 11</div>
-                    <button id="next-week" class="nav-button">Next →</button>
+                    <button id="next-week" class="nav-button" aria-label="Next artwork">➡️</button>
                 </div>
 
                 <!-- Artwork Display -->
@@ -423,8 +184,8 @@
 
                 <!-- Language Toggle -->
                 <div class="language-toggle">
-                    <button class="language-button active" data-language="en">English</button>
-                    <button class="language-button" data-language="zh">中文</button>
+                    <button class="language-button active" data-language="en">🇺🇸 English</button>
+                    <button class="language-button" data-language="zh">🇨🇳 中文</button>
                 </div>
 
                 <!-- Story Display -->
@@ -442,85 +203,27 @@
         </footer>
     </div>
 
+    <!-- Lightbox overlay -->
+    <div id="lightbox-overlay" class="lightbox-overlay" onclick="closeLightbox(event)" role="dialog" aria-label="Full-screen artwork view">
+        <button class="lightbox-nav lightbox-nav--prev" onclick="navigateLightbox(-1)" aria-label="Previous artwork">⬅️</button>
+        <img id="lightbox-image" class="lightbox-image" src="" alt="Full-screen artwork">
+        <button class="lightbox-nav lightbox-nav--next" onclick="navigateLightbox(1)" aria-label="Next artwork">➡️</button>
+        <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">✕</button>
+    </div>
+
     <script src="src/js/app.js"></script>
     <script>
-        // Simple function to show gallery
         function showGallery() {
-            console.log('showGallery called!');
-            const coverPage = document.getElementById('cover-page');
-            const mainShowcase = document.getElementById('main-showcase');
-
-            console.log('Cover page element:', coverPage);
-            console.log('Main showcase element:', mainShowcase);
-
-            if (coverPage && mainShowcase) {
-                console.log('Both elements found, switching views...');
-
-                // Hide cover page
-                coverPage.style.display = 'none';
-                console.log('Cover page hidden');
-
-                // Remove the inline style and show main showcase
-                mainShowcase.removeAttribute('style');
-                mainShowcase.style.display = 'block';
-                mainShowcase.style.visibility = 'visible';
-                mainShowcase.style.opacity = '1';
-                mainShowcase.classList.add('active');
-                console.log('Main showcase shown with forced styles');
-
-                // Scroll to top to show the gallery like a new page
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-                
-                // Remove the alert for now
-                console.log('Gallery should now be visible at the top!');
-
-                // Initialize the showcase if not already done
-                if (!window.showcaseInitialized) {
-                    console.log('Initializing showcase...');
-                    setTimeout(() => {
-                        try {
-                            new WeeklyArtShowcase();
-                            window.showcaseInitialized = true;
-                            console.log('Showcase initialized successfully!');
-                        } catch (error) {
-                            console.error('Error initializing showcase:', error);
-                        }
-                    }, 200);
-                }
-            } else {
-                console.error('Could not find cover page or main showcase elements');
-            }
+            // Delegate to CoverPageManager via app.js
+            // Trigger the enter button click which CoverPageManager listens for
+            const btn = document.getElementById('enter-showcase');
+            if (btn) btn.click();
         }
 
-        // Function to go back to cover
         function showCover() {
-            console.log('showCover called!');
-            const coverPage = document.getElementById('cover-page');
-            const mainShowcase = document.getElementById('main-showcase');
-
-            if (coverPage && mainShowcase) {
-                // Show cover page
-                coverPage.style.display = 'block';
-
-                // Hide main showcase
-                mainShowcase.style.display = 'none';
-                mainShowcase.classList.remove('active');
-            }
+            const btn = document.getElementById('back-to-cover');
+            if (btn) btn.click();
         }
-
-        // Set up event listeners when DOM is ready
-        document.addEventListener('DOMContentLoaded', function () {
-            console.log('DOM loaded, setting up event listeners...');
-
-            // Handle back to cover button
-            const backButton = document.getElementById('back-to-cover');
-            if (backButton) {
-                backButton.onclick = showCover;
-                console.log('Back button event listener added');
-            } else {
-                console.log('Back button not found');
-            }
-        });
     </script>
 </body>
 
