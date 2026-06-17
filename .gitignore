@@ -115,6 +115,9 @@ node_modules
 # Users Environment Variables
 .lock-wscript
 
+# LAVISH design planning docs
+.lavish/
+
 # IDE files
 .vscode/
 .idea/
