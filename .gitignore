@@ -115,6 +115,12 @@ node_modules
 # Users Environment Variables
 .lock-wscript
 
+# LAVISH design planning docs
+.lavish/
+
+# Playwright test output
+test-results/
+
 # IDE files
 .vscode/
 .idea/
