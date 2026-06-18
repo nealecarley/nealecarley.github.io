@@ -118,6 +118,9 @@ node_modules
 # LAVISH design planning docs
 .lavish/
 
+# Playwright test output
+test-results/
+
 # IDE files
 .vscode/
 .idea/
